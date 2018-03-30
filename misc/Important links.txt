@@ -1,0 +1,8 @@
+
+
+https://github.com/dennybritz/deeplearning-papernotes/blob/master/notes/text-understanding-from-scratch.md
+
+https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M
+
+https://www.reddit.com/r/MachineLearning/comments/2v03ni/lecun_text_understanding_from_scratch/
+
