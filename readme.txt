@@ -27,3 +27,13 @@ Install punkt for nltk:
 
 
     Current accuracy: 0.975
+
+1. Amazon full review
+    Download: amazon_review_full_csv.tar.gz
+    Unzip and put amazon_review_full_csv folder in the 'data' folder of the project
+
+    From the project root:
+        'cd src/Preprocess'
+        'python pre_AmazonFull.py'
+        'cd ../BoW'
+        'python bag_of_words.py amazon_full'
