@@ -63,3 +63,27 @@ Install punkt for nltk:
         'python bag_of_words.py yahoo'
 
     Current Accuracy: 0.6804
+
+5. Sogou
+   Download: sogou_news_csv.tar.gz
+   Unzip and put sogou_news_csv folder in the 'data' folder of the project
+
+    From the project root:
+        'cd src/Preprocess'
+        'python pre_Sogou.py'
+        'cd ../BoW'
+        'python bag_of_words.py sogou'
+
+    Current Accuracy: 0.92975
+
+6. AG
+   Download: ag_news_csv.tar.gz
+   Unzip and put ag_news_csv folder in the 'data' folder of the project
+
+    From the project root:
+        'cd src/Preprocess'
+        'python pre_AG.py'
+        'cd ../BoW'
+        'python bag_of_words.py ag'
+
+    Current Accuracy: 0.904736
