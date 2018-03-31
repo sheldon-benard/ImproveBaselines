@@ -39,3 +39,15 @@ Install punkt for nltk:
         'python bag_of_words.py amazon_full'
 
     Current Accuracy: 0.521169
+
+3. Amazon polarity
+   Download: amazon_review_polarity_csv.tar.gz
+   Unzip and put amazon_review_polarity_csv folder in the 'data' folder of the project
+
+    From the project root:
+        'cd src/Preprocess'
+        'python pre_AmazonPolarity.py'
+        'cd ../BoW'
+        'python bag_of_words.py amazon_polarity'
+
+    Current Accuracy: 0.8880775
