@@ -3,9 +3,9 @@ from loader import loadDBPedia
 from loader import loadAmazonFull
 import nltk
 import numpy as np
+from scipy.sparse import csr_matrix,vstack
 from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import HashingVectorizer
 from sklearn.metrics import accuracy_score
 
 
@@ -45,23 +45,29 @@ def amazon_full():
 	features = 5000
 	stop = 'english'
 
-	vectorizer = CountVectorizer(tokenizer=nltk.word_tokenize,stop_words=stop,max_features=features)
-	train_grams = vectorizer.fit_transform(train_x).toarray()
+	print("Fit_transform")
+	vectorizer = CountVectorizer(tokenizer=nltk.word_tokenize, stop_words=stop, max_features=features)
+	train_grams = csr_matrix(vectorizer.fit_transform(train_x))
 
-	test_vectorizer = CountVectorizer(tokenizer = nltk.word_tokenize, vocabulary = vectorizer.vocabulary_, stop_words = stop)
-	test_grams = test_vectorizer.fit_transform(test_x).toarray()
-
-	X = np.asarray(train_grams)
+	train_x = None
 	Y = np.asarray(train_y)
 
-	X_test = np.asarray(test_grams)
+	print("LogReg fit")
+	classifier = LogisticRegression()
+	classifier.fit(train_grams, Y)
+
+	train_y = None
+	train_grams = None
+	Y = None
+
+	print("Test")
+	test_grams = csr_matrix(vectorizer.transform(test_x))
+
 	Y_test = np.asarray(test_y)
 
-	print("training Logistic Regression")
-	classifier = LogisticRegression()
-	classifier.fit(X, Y)
+	predicted = classifier.predict(test_grams)
+	test_grams = None
 
-	predicted = classifier.predict(X_test)
 	score = accuracy_score(Y_test,predicted)
 
 	print(score)
