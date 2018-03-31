@@ -58,8 +58,8 @@ Install punkt for nltk:
 
     From the project root:
         'cd src/Preprocess'
-        'python pre_AmazonPolarity.py'
+        'python pre_Yahoo.py'
         'cd ../BoW'
-        'python bag_of_words.py amazon_polarity'
+        'python bag_of_words.py yahoo'
 
     Current Accuracy: 0.6804
