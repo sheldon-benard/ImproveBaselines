@@ -1,5 +1,7 @@
 Setup:
 
+Data: https://drive.google.com/drive/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M
+
 Setup virtualenv
     'virtualenv .'
 
@@ -14,6 +16,7 @@ Install punkt for nltk:
     'import nltk'
     'nltk.download('punkt')'
 
+BoW:
 
 1. DBPedia
     Download: dbpedia_csv.tar.gz
@@ -87,3 +90,55 @@ Install punkt for nltk:
         'python bag_of_words.py ag'
 
     Current Accuracy: 0.904736
+
+
+
+VW:
+
+Download the data and put the data folders in the 'data' folder as outlined in the BoW section above
+
+Install Vowpal Wabbit:
+
+    (DEPENDENCIES)
+        brew install libtool
+        brew install autoconf
+        brew install automake
+        brew install boost
+        brew install boost-python
+
+    Navigate to 'VW' folder
+        cd VW
+
+    Make VW repo and test that it works
+        git clone git://github.com/JohnLangford/vowpal_wabbit.git
+        cd vowpal_wabbit
+        make
+        make test
+
+    If you encounter issues: https://github.com/JohnLangford/vowpal_wabbit
+
+
+Methodology:
+- Remove punctuation (r'[^\w\s\d]|_')
+- Remove stop words (any word at most 2 characters)
+- lowercase
+- Hyperparameters: bits, loss_function, ngram, skips
+
+
+    ./vw --oaa 14 -d ../../dbpedia_csv/train_vm.csv --loss_function hinge -b25 -f ../../dbpedia_csv/model.vw
+    ./vw -t ../../dbpedia_csv/test_vm.csv -i ../../dbpedia_csv/model.vw -p ../../dbpedia_csv/pred.txt
+
+
+    ./vw --oaa 5 -d ../../sogou_news_csv/train_vm.csv --loss_function hinge -b25 --ngram 2 -f ../../sogou_news_csv/model.vw
+    ./vw -t ../../sogou_news_csv/test_vm.csv -i ../../sogou_news_csv/model.vw -p ../../sogou_news_csv/pred.txt
+
+
+    ./vw --oaa 10 -d ../../yahoo_answers_csv/train_vm.csv --loss_function hinge -b25  -f ../../yahoo_answers_csv/model.vw
+    ./vw -t ../../yahoo_answers_csv/test_vm.csv -i ../../yahoo_answers_csv/model.vw -p ../../yahoo_answers_csv/pred.txt
+
+    ./vw --oaa 5 -d ../../amazon_review_full_csv/train_vm.csv --loss_function hinge -b25  --ngram 2 --skips 2 -f ../../amazon_review_full_csv/model.vw
+    ./vw -t ../../amazon_review_full_csv/test_vm.csv -i ../../amazon_review_full_csv/model.vw -p ../../amazon_review_full_csv/pred.txt
+
+    ./vw --oaa 2 -d ../../amazon_review_polarity_csv/train_vm.csv --loss_function hinge -b25 --ngram 2 --skips 2  -f ../../amazon_review_polarity_csv/model.vw
+    ./vw -t ../../amazon_review_polarity_csv/test_vm.csv -i ../../amazon_review_polarity_csv/model.vw -p ../../amazon_review_polarity_csv/pred.txt
+
