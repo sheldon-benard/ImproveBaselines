@@ -1,0 +1,2012 @@
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        4       38
+0.906250 0.937500           32           32.0        2        1       24
+0.796875 0.687500           64           64.0        4        1       74
+0.796875 0.796875          128          128.0        3        5       21
+0.777344 0.757812          256          256.0        5        2       32
+0.707031 0.636719          512          512.0        4        1       43
+0.702148 0.697266         1024         1024.0        5        2       28
+0.707031 0.711914         2048         2048.0        4        3       45
+0.691895 0.676758         4096         4096.0        5        1       25
+0.684814 0.677734         8192         8192.0        5        4       30
+0.678284 0.671753        16384        16384.0        4        2       38
+0.670288 0.662292        32768        32768.0        3        3       62
+0.657059 0.643829        65536        65536.0        3        2       33
+0.642441 0.627823       131072       131072.0        3        2       46
+0.629036 0.615631       262144       262144.0        2        2       84
+0.614304 0.599571       524288       524288.0        3        2       42
+0.594565 0.574827      1048576      1048576.0        5        2       92
+0.574670 0.574670      2097152      2097152.0        4        3      108 h
+0.557854 0.541039      4194304      4194304.0        1        1       62 h
+0.545229 0.532603      8388608      8388608.0        2        1       39 h
+0.536096 0.526963     16777216     16777216.0        3        4       23 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.520315 h
+total feature number = 1906646025
+Run:{1,None,0.001}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        4       38
+0.937500 1.000000           32           32.0        2        1       24
+0.812500 0.687500           64           64.0        4        1       74
+0.789062 0.765625          128          128.0        3        5       21
+0.777344 0.765625          256          256.0        5        2       32
+0.705078 0.632812          512          512.0        4        1       43
+0.700195 0.695312         1024         1024.0        5        2       28
+0.696777 0.693359         2048         2048.0        4        3       45
+0.665039 0.633301         4096         4096.0        5        1       25
+0.634399 0.603760         8192         8192.0        5        5       30
+0.609497 0.584595        16384        16384.0        4        1       38
+0.582916 0.556335        32768        32768.0        3        3       62
+0.560776 0.538635        65536        65536.0        3        1       33
+0.547699 0.534622       131072       131072.0        3        2       46
+0.535976 0.524254       262144       262144.0        2        1       84
+0.527466 0.518955       524288       524288.0        3        2       42
+0.518630 0.509794      1048576      1048576.0        5        5       92
+0.511686 0.511686      2097152      2097152.0        4        3      108 h
+0.503445 0.495205      4194304      4194304.0        1        1       62 h
+0.495437 0.487429      8388608      8388608.0        2        5       39 h
+0.487690 0.479943     16777216     16777216.0        3        4       23 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.472374 h
+total feature number = 1906646025
+Run:{1,None,0.01}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        4       38
+0.906250 0.937500           32           32.0        2        1       24
+0.796875 0.687500           64           64.0        4        5       74
+0.750000 0.703125          128          128.0        3        3       21
+0.746094 0.742188          256          256.0        5        5       32
+0.685547 0.625000          512          512.0        4        1       43
+0.661133 0.636719         1024         1024.0        5        3       28
+0.642090 0.623047         2048         2048.0        4        4       45
+0.613770 0.585449         4096         4096.0        5        1       25
+0.578979 0.544189         8192         8192.0        5        5       30
+0.559937 0.540894        16384        16384.0        4        1       38
+0.538147 0.516357        32768        32768.0        3        3       62
+0.520874 0.503601        65536        65536.0        3        3       33
+0.507423 0.493973       131072       131072.0        3        2       46
+0.494957 0.482491       262144       262144.0        2        2       84
+0.485409 0.475861       524288       524288.0        3        2       42
+0.476127 0.466845      1048576      1048576.0        5        5       92
+0.470140 0.470140      2097152      2097152.0        4        3      108 h
+0.465275 0.460410      4194304      4194304.0        1        1       62 h
+0.462053 0.458831      8388608      8388608.0        2        3       39 h
+0.459964 0.457876     16777216     16777216.0        3        4       23 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 12
+weighted example sum = 24000000.000000
+weighted label sum = 0.000000
+average loss = 0.457764 h
+total feature number = 1525316820
+Run:{1,None,0.1}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.875000 0.875000           32           32.0        2        2       24
+0.781250 0.687500           64           64.0        4        5       74
+0.734375 0.687500          128          128.0        3        5       21
+0.738281 0.742188          256          256.0        5        5       32
+0.675781 0.613281          512          512.0        4        2       43
+0.644531 0.613281         1024         1024.0        5        3       28
+0.636719 0.628906         2048         2048.0        4        4       45
+0.603760 0.570801         4096         4096.0        5        1       25
+0.572632 0.541504         8192         8192.0        5        5       30
+0.552917 0.533203        16384        16384.0        4        3       38
+0.528748 0.504578        32768        32768.0        3        3       62
+0.511917 0.495087        65536        65536.0        3        3       33
+0.500626 0.489334       131072       131072.0        3        2       46
+0.488388 0.476151       262144       262144.0        2        2       84
+0.479811 0.471233       524288       524288.0        3        2       42
+0.471758 0.463705      1048576      1048576.0        5        4       92
+0.466759 0.466759      2097152      2097152.0        4        3      108 h
+0.463058 0.459356      4194304      4194304.0        1        1       62 h
+0.461542 0.460026      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.459494 h
+total feature number = 635548675
+Run:{1,None,0.3}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.843750 0.812500           32           32.0        2        2       24
+0.781250 0.718750           64           64.0        4        5       74
+0.734375 0.687500          128          128.0        3        5       21
+0.750000 0.765625          256          256.0        5        5       32
+0.681641 0.613281          512          512.0        4        2       43
+0.649414 0.617188         1024         1024.0        5        3       28
+0.639648 0.629883         2048         2048.0        4        4       45
+0.606689 0.573730         4096         4096.0        5        1       25
+0.575439 0.544189         8192         8192.0        5        5       30
+0.555786 0.536133        16384        16384.0        4        3       38
+0.531464 0.507141        32768        32768.0        3        3       62
+0.515579 0.499695        65536        65536.0        3        3       33
+0.504005 0.492432       131072       131072.0        3        2       46
+0.492077 0.480148       262144       262144.0        2        2       84
+0.483379 0.474682       524288       524288.0        3        2       42
+0.474961 0.466543      1048576      1048576.0        5        4       92
+0.469245 0.469245      2097152      2097152.0        4        3      108 h
+0.465793 0.462341      4194304      4194304.0        1        1       62 h
+0.464974 0.464154      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.462382 h
+total feature number = 635548675
+Run:{1,None,0.5}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.843750 0.812500           32           32.0        2        2       24
+0.781250 0.718750           64           64.0        4        5       74
+0.734375 0.687500          128          128.0        3        3       21
+0.750000 0.765625          256          256.0        5        5       32
+0.685547 0.621094          512          512.0        4        2       43
+0.647461 0.609375         1024         1024.0        5        3       28
+0.636719 0.625977         2048         2048.0        4        4       45
+0.604736 0.572754         4096         4096.0        5        1       25
+0.575439 0.546143         8192         8192.0        5        5       30
+0.558655 0.541870        16384        16384.0        4        3       38
+0.534088 0.509521        32768        32768.0        3        3       62
+0.518906 0.503723        65536        65536.0        3        3       33
+0.508057 0.497208       131072       131072.0        3        2       46
+0.496201 0.484344       262144       262144.0        2        2       84
+0.487396 0.478592       524288       524288.0        3        2       42
+0.478841 0.470285      1048576      1048576.0        5        4       92
+0.472488 0.472488      2097152      2097152.0        4        3      108 h
+0.468934 0.465380      4194304      4194304.0        1        1       62 h
+0.468471 0.468008      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.465373 h
+total feature number = 635548675
+Run:{1,None,0.7}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.875000 0.875000           32           32.0        2        3       24
+0.812500 0.750000           64           64.0        4        5       74
+0.742188 0.671875          128          128.0        3        3       21
+0.746094 0.750000          256          256.0        5        5       32
+0.683594 0.621094          512          512.0        4        2       43
+0.649414 0.615234         1024         1024.0        5        5       28
+0.643066 0.636719         2048         2048.0        4        4       45
+0.607178 0.571289         4096         4096.0        5        1       25
+0.578491 0.549805         8192         8192.0        5        5       30
+0.562439 0.546387        16384        16384.0        4        3       38
+0.538086 0.513733        32768        32768.0        3        3       62
+0.522903 0.507721        65536        65536.0        3        3       33
+0.512375 0.501846       131072       131072.0        3        2       46
+0.500462 0.488548       262144       262144.0        2        2       84
+0.491327 0.482193       524288       524288.0        3        2       42
+0.482550 0.473772      1048576      1048576.0        5        4       92
+0.475604 0.475604      2097152      2097152.0        4        3      108 h
+0.472050 0.468497      4194304      4194304.0        1        1       62 h
+0.471778 0.471506      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.468376 h
+total feature number = 635548675
+Run:{1,None,0.9}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        4       38
+0.906250 0.937500           32           32.0        2        1       24
+0.796875 0.687500           64           64.0        4        1       74
+0.796875 0.796875          128          128.0        3        5       21
+0.777344 0.757812          256          256.0        5        2       32
+0.707031 0.636719          512          512.0        4        1       43
+0.702148 0.697266         1024         1024.0        5        2       28
+0.707031 0.711914         2048         2048.0        4        3       45
+0.691895 0.676758         4096         4096.0        5        1       25
+0.684814 0.677734         8192         8192.0        5        4       30
+0.678284 0.671753        16384        16384.0        4        2       38
+0.670288 0.662292        32768        32768.0        3        3       62
+0.657059 0.643829        65536        65536.0        3        2       33
+0.642441 0.627823       131072       131072.0        3        2       46
+0.629036 0.615631       262144       262144.0        2        2       84
+0.614304 0.599571       524288       524288.0        3        2       42
+0.594565 0.574827      1048576      1048576.0        5        2       92
+0.574670 0.574670      2097152      2097152.0        4        3      108 h
+0.557854 0.541039      4194304      4194304.0        1        1       62 h
+0.545229 0.532603      8388608      8388608.0        2        1       39 h
+0.536096 0.526963     16777216     16777216.0        3        4       23 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.520315 h
+total feature number = 1906646025
+Run:{1,1,0.001}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        4       38
+0.937500 1.000000           32           32.0        2        1       24
+0.812500 0.687500           64           64.0        4        1       74
+0.789062 0.765625          128          128.0        3        5       21
+0.777344 0.765625          256          256.0        5        2       32
+0.705078 0.632812          512          512.0        4        1       43
+0.700195 0.695312         1024         1024.0        5        2       28
+0.696777 0.693359         2048         2048.0        4        3       45
+0.665039 0.633301         4096         4096.0        5        1       25
+0.634399 0.603760         8192         8192.0        5        5       30
+0.609497 0.584595        16384        16384.0        4        1       38
+0.582916 0.556335        32768        32768.0        3        3       62
+0.560776 0.538635        65536        65536.0        3        1       33
+0.547699 0.534622       131072       131072.0        3        2       46
+0.535976 0.524254       262144       262144.0        2        1       84
+0.527466 0.518955       524288       524288.0        3        2       42
+0.518630 0.509794      1048576      1048576.0        5        5       92
+0.511686 0.511686      2097152      2097152.0        4        3      108 h
+0.503445 0.495205      4194304      4194304.0        1        1       62 h
+0.495437 0.487429      8388608      8388608.0        2        5       39 h
+0.487690 0.479943     16777216     16777216.0        3        4       23 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.472374 h
+total feature number = 1906646025
+Run:{1,1,0.01}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        4       38
+0.906250 0.937500           32           32.0        2        1       24
+0.796875 0.687500           64           64.0        4        5       74
+0.750000 0.703125          128          128.0        3        3       21
+0.746094 0.742188          256          256.0        5        5       32
+0.685547 0.625000          512          512.0        4        1       43
+0.661133 0.636719         1024         1024.0        5        3       28
+0.642090 0.623047         2048         2048.0        4        4       45
+0.613770 0.585449         4096         4096.0        5        1       25
+0.578979 0.544189         8192         8192.0        5        5       30
+0.559937 0.540894        16384        16384.0        4        1       38
+0.538147 0.516357        32768        32768.0        3        3       62
+0.520874 0.503601        65536        65536.0        3        3       33
+0.507423 0.493973       131072       131072.0        3        2       46
+0.494957 0.482491       262144       262144.0        2        2       84
+0.485409 0.475861       524288       524288.0        3        2       42
+0.476127 0.466845      1048576      1048576.0        5        5       92
+0.470140 0.470140      2097152      2097152.0        4        3      108 h
+0.465275 0.460410      4194304      4194304.0        1        1       62 h
+0.462053 0.458831      8388608      8388608.0        2        3       39 h
+0.459964 0.457876     16777216     16777216.0        3        4       23 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 12
+weighted example sum = 24000000.000000
+weighted label sum = 0.000000
+average loss = 0.457764 h
+total feature number = 1525316820
+Run:{1,1,0.1}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.875000 0.875000           32           32.0        2        2       24
+0.781250 0.687500           64           64.0        4        5       74
+0.734375 0.687500          128          128.0        3        5       21
+0.738281 0.742188          256          256.0        5        5       32
+0.675781 0.613281          512          512.0        4        2       43
+0.644531 0.613281         1024         1024.0        5        3       28
+0.636719 0.628906         2048         2048.0        4        4       45
+0.603760 0.570801         4096         4096.0        5        1       25
+0.572632 0.541504         8192         8192.0        5        5       30
+0.552917 0.533203        16384        16384.0        4        3       38
+0.528748 0.504578        32768        32768.0        3        3       62
+0.511917 0.495087        65536        65536.0        3        3       33
+0.500626 0.489334       131072       131072.0        3        2       46
+0.488388 0.476151       262144       262144.0        2        2       84
+0.479811 0.471233       524288       524288.0        3        2       42
+0.471758 0.463705      1048576      1048576.0        5        4       92
+0.466759 0.466759      2097152      2097152.0        4        3      108 h
+0.463058 0.459356      4194304      4194304.0        1        1       62 h
+0.461542 0.460026      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.459494 h
+total feature number = 635548675
+Run:{1,1,0.3}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.843750 0.812500           32           32.0        2        2       24
+0.781250 0.718750           64           64.0        4        5       74
+0.734375 0.687500          128          128.0        3        5       21
+0.750000 0.765625          256          256.0        5        5       32
+0.681641 0.613281          512          512.0        4        2       43
+0.649414 0.617188         1024         1024.0        5        3       28
+0.639648 0.629883         2048         2048.0        4        4       45
+0.606689 0.573730         4096         4096.0        5        1       25
+0.575439 0.544189         8192         8192.0        5        5       30
+0.555786 0.536133        16384        16384.0        4        3       38
+0.531464 0.507141        32768        32768.0        3        3       62
+0.515579 0.499695        65536        65536.0        3        3       33
+0.504005 0.492432       131072       131072.0        3        2       46
+0.492077 0.480148       262144       262144.0        2        2       84
+0.483379 0.474682       524288       524288.0        3        2       42
+0.474961 0.466543      1048576      1048576.0        5        4       92
+0.469245 0.469245      2097152      2097152.0        4        3      108 h
+0.465793 0.462341      4194304      4194304.0        1        1       62 h
+0.464974 0.464154      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.462382 h
+total feature number = 635548675
+Run:{1,1,0.5}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.843750 0.812500           32           32.0        2        2       24
+0.781250 0.718750           64           64.0        4        5       74
+0.734375 0.687500          128          128.0        3        3       21
+0.750000 0.765625          256          256.0        5        5       32
+0.685547 0.621094          512          512.0        4        2       43
+0.647461 0.609375         1024         1024.0        5        3       28
+0.636719 0.625977         2048         2048.0        4        4       45
+0.604736 0.572754         4096         4096.0        5        1       25
+0.575439 0.546143         8192         8192.0        5        5       30
+0.558655 0.541870        16384        16384.0        4        3       38
+0.534088 0.509521        32768        32768.0        3        3       62
+0.518906 0.503723        65536        65536.0        3        3       33
+0.508057 0.497208       131072       131072.0        3        2       46
+0.496201 0.484344       262144       262144.0        2        2       84
+0.487396 0.478592       524288       524288.0        3        2       42
+0.478841 0.470285      1048576      1048576.0        5        4       92
+0.472488 0.472488      2097152      2097152.0        4        3      108 h
+0.468934 0.465380      4194304      4194304.0        1        1       62 h
+0.468471 0.468008      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.465373 h
+total feature number = 635548675
+Run:{1,1,0.7}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       27
+1.000000 1.000000            2            2.0        5        4       41
+1.000000 1.000000            4            4.0        4        5       42
+0.750000 0.500000            8            8.0        1        1       71
+0.875000 1.000000           16           16.0        3        5       38
+0.875000 0.875000           32           32.0        2        3       24
+0.812500 0.750000           64           64.0        4        5       74
+0.742188 0.671875          128          128.0        3        3       21
+0.746094 0.750000          256          256.0        5        5       32
+0.683594 0.621094          512          512.0        4        2       43
+0.649414 0.615234         1024         1024.0        5        5       28
+0.643066 0.636719         2048         2048.0        4        4       45
+0.607178 0.571289         4096         4096.0        5        1       25
+0.578491 0.549805         8192         8192.0        5        5       30
+0.562439 0.546387        16384        16384.0        4        3       38
+0.538086 0.513733        32768        32768.0        3        3       62
+0.522903 0.507721        65536        65536.0        3        3       33
+0.512375 0.501846       131072       131072.0        3        2       46
+0.500462 0.488548       262144       262144.0        2        2       84
+0.491327 0.482193       524288       524288.0        3        2       42
+0.482550 0.473772      1048576      1048576.0        5        4       92
+0.475604 0.475604      2097152      2097152.0        4        3      108 h
+0.472050 0.468497      4194304      4194304.0        1        1       62 h
+0.471778 0.471506      8388608      8388608.0        2        3       39 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.468376 h
+total feature number = 635548675
+Run:{1,1,0.9}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       52
+1.000000 1.000000            2            2.0        5        4       80
+1.000000 1.000000            4            4.0        4        5       82
+0.750000 0.500000            8            8.0        1        1      140
+0.875000 1.000000           16           16.0        3        4       74
+0.906250 0.937500           32           32.0        2        1       46
+0.812500 0.718750           64           64.0        4        1      146
+0.796875 0.781250          128          128.0        3        3       40
+0.765625 0.734375          256          256.0        5        2       62
+0.697266 0.628906          512          512.0        4        1       84
+0.708008 0.718750         1024         1024.0        5        2       54
+0.708984 0.709961         2048         2048.0        4        3       88
+0.686279 0.663574         4096         4096.0        5        1       48
+0.670898 0.655518         8192         8192.0        5        4       58
+0.661926 0.652954        16384        16384.0        4        2       74
+0.651337 0.640747        32768        32768.0        3        3      122
+0.637222 0.623108        65536        65536.0        3        2       64
+0.623337 0.609451       131072       131072.0        3        2       90
+0.611298 0.599258       262144       262144.0        2        2      166
+0.598288 0.585278       524288       524288.0        3        2       82
+0.579123 0.559959      1048576      1048576.0        5        2      182
+0.559374 0.559374      2097152      2097152.0        4        3      214 h
+0.541582 0.523790      4194304      4194304.0        1        1      122 h
+0.527540 0.513498      8388608      8388608.0        2        5       76 h
+0.517228 0.506915     16777216     16777216.0        3        4       44 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.499721 h
+total feature number = 3753292095
+Run:{2,None,0.001}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       52
+1.000000 1.000000            2            2.0        5        4       80
+1.000000 1.000000            4            4.0        4        5       82
+0.750000 0.500000            8            8.0        1        1      140
+0.875000 1.000000           16           16.0        3        4       74
+0.937500 1.000000           32           32.0        2        1       46
+0.828125 0.718750           64           64.0        4        1      146
+0.789062 0.750000          128          128.0        3        3       40
+0.769531 0.750000          256          256.0        5        2       62
+0.703125 0.636719          512          512.0        4        1       84
+0.701172 0.699219         1024         1024.0        5        2       54
+0.695312 0.689453         2048         2048.0        4        3       88
+0.655518 0.615723         4096         4096.0        5        1       48
+0.627319 0.599121         8192         8192.0        5        5       58
+0.601685 0.576050        16384        16384.0        4        3       74
+0.572113 0.542542        32768        32768.0        3        3      122
+0.548126 0.524139        65536        65536.0        3        1       64
+0.533112 0.518097       131072       131072.0        3        2       90
+0.518955 0.504799       262144       262144.0        2        1      166
+0.509758 0.500561       524288       524288.0        3        2       82
+0.499908 0.490059      1048576      1048576.0        5        5      182
+0.492055 0.492055      2097152      2097152.0        4        3      214 h
+0.482874 0.473693      4194304      4194304.0        1        1      122 h
+0.473590 0.464306      8388608      8388608.0        2        5       76 h
+0.464058 0.454526     16777216     16777216.0        3        4       44 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.443602 h
+total feature number = 3753292095
+Run:{2,None,0.01}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       52
+1.000000 1.000000            2            2.0        5        4       80
+1.000000 1.000000            4            4.0        4        5       82
+0.750000 0.500000            8            8.0        1        1      140
+0.875000 1.000000           16           16.0        3        4       74
+0.906250 0.937500           32           32.0        2        2       46
+0.812500 0.718750           64           64.0        4        1      146
+0.757812 0.703125          128          128.0        3        3       40
+0.734375 0.710938          256          256.0        5        5       62
+0.673828 0.613281          512          512.0        4        1       84
+0.654297 0.634766         1024         1024.0        5        3       54
+0.636719 0.619141         2048         2048.0        4        4       88
+0.602783 0.568848         4096         4096.0        5        1       48
+0.566284 0.529785         8192         8192.0        5        5       58
+0.545959 0.525635        16384        16384.0        4        3       74
+0.521362 0.496765        32768        32768.0        3        3      122
+0.504150 0.486938        65536        65536.0        3        3       64
+0.489159 0.474167       131072       131072.0        3        2       90
+0.474522 0.459885       262144       262144.0        2        2      166
+0.462107 0.449692       524288       524288.0        3        1       82
+0.449683 0.437260      1048576      1048576.0        5        4      182
+0.440127 0.440127      2097152      2097152.0        4        4      214 h
+0.432363 0.424599      4194304      4194304.0        1        1      122 h
+0.426976 0.421589      8388608      8388608.0        2        2       76 h
+0.423694 0.420412     16777216     16777216.0        3        4       44 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 10
+weighted example sum = 20000000.000000
+weighted label sum = 0.000000
+average loss = 0.420247 h
+total feature number = 2502194730
+Run:{2,None,0.1}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       52
+1.000000 1.000000            2            2.0        5        4       80
+1.000000 1.000000            4            4.0        4        5       82
+0.750000 0.500000            8            8.0        1        1      140
+0.875000 1.000000           16           16.0        3        5       74
+0.875000 0.875000           32           32.0        2        2       46
+0.765625 0.656250           64           64.0        4        3      146
+0.718750 0.671875          128          128.0        3        3       40
+0.714844 0.710938          256          256.0        5        5       62
+0.648438 0.582031          512          512.0        4        1       84
+0.632812 0.617188         1024         1024.0        5        3       54
+0.624512 0.616211         2048         2048.0        4        4       88
+0.590332 0.556152         4096         4096.0        5        1       48
+0.557739 0.525146         8192         8192.0        5        5       58
+0.534790 0.511841        16384        16384.0        4        3       74
+0.510437 0.486084        32768        32768.0        3        3      122
+0.491379 0.472321        65536        65536.0        3        3       64
+0.477783 0.464188       131072       131072.0        3        2       90
+0.463661 0.449539       262144       262144.0        2        2      166
+0.452435 0.441208       524288       524288.0        3        2       82
+0.441530 0.430626      1048576      1048576.0        5        4      182
+0.433352 0.433352      2097152      2097152.0        4        4      214 h
+0.428337 0.423322      4194304      4194304.0        1        1      122 h
+0.427276 0.426216      8388608      8388608.0        2        2       76 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.423330 h
+total feature number = 1251097365
+Run:{2,None,0.3}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       52
+1.000000 1.000000            2            2.0        5        4       80
+1.000000 1.000000            4            4.0        4        5       82
+0.750000 0.500000            8            8.0        1        1      140
+0.875000 1.000000           16           16.0        3        5       74
+0.843750 0.812500           32           32.0        2        2       46
+0.781250 0.718750           64           64.0        4        3      146
+0.734375 0.687500          128          128.0        3        3       40
+0.714844 0.695312          256          256.0        5        5       62
+0.656250 0.597656          512          512.0        4        1       84
+0.633789 0.611328         1024         1024.0        5        3       54
+0.621582 0.609375         2048         2048.0        4        4       88
+0.587891 0.554199         4096         4096.0        5        1       48
+0.557617 0.527344         8192         8192.0        5        5       58
+0.537354 0.517090        16384        16384.0        4        3       74
+0.512085 0.486816        32768        32768.0        3        3      122
+0.492218 0.472351        65536        65536.0        3        3       64
+0.478874 0.465530       131072       131072.0        3        2       90
+0.465347 0.451820       262144       262144.0        2        2      166
+0.454523 0.443699       524288       524288.0        3        2       82
+0.444425 0.434326      1048576      1048576.0        5        4      182
+0.436507 0.436507      2097152      2097152.0        4        4      214 h
+0.432863 0.429220      4194304      4194304.0        1        1      122 h
+0.433908 0.434953      8388608      8388608.0        2        2       76 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.429111 h
+total feature number = 1251097365
+Run:{2,None,0.5}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       52
+1.000000 1.000000            2            2.0        5        4       80
+1.000000 1.000000            4            4.0        4        5       82
+0.750000 0.500000            8            8.0        1        1      140
+0.875000 1.000000           16           16.0        3        5       74
+0.843750 0.812500           32           32.0        2        2       46
+0.796875 0.750000           64           64.0        4        5      146
+0.734375 0.671875          128          128.0        3        3       40
+0.710938 0.687500          256          256.0        5        5       62
+0.656250 0.601562          512          512.0        4        1       84
+0.630859 0.605469         1024         1024.0        5        3       54
+0.617676 0.604492         2048         2048.0        4        4       88
+0.584229 0.550781         4096         4096.0        5        1       48
+0.556763 0.529297         8192         8192.0        5        5       58
+0.537964 0.519165        16384        16384.0        4        3       74
+0.513763 0.489563        32768        32768.0        3        3      122
+0.494705 0.475647        65536        65536.0        3        3       64
+0.481331 0.467957       131072       131072.0        3        2       90
+0.468239 0.455147       262144       262144.0        2        2      166
+0.457880 0.447521       524288       524288.0        3        2       82
+0.448459 0.439037      1048576      1048576.0        5        4      182
+0.440466 0.440466      2097152      2097152.0        4        4      214 h
+0.437798 0.435129      4194304      4194304.0        1        1      122 h
+0.439947 0.442096      8388608      8388608.0        2        2       76 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.434886 h
+total feature number = 1251097365
+Run:{2,None,0.7}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       52
+1.000000 1.000000            2            2.0        5        4       80
+1.000000 1.000000            4            4.0        4        5       82
+0.750000 0.500000            8            8.0        1        1      140
+0.875000 1.000000           16           16.0        3        5       74
+0.843750 0.812500           32           32.0        2        2       46
+0.796875 0.750000           64           64.0        4        5      146
+0.742188 0.687500          128          128.0        3        5       40
+0.714844 0.687500          256          256.0        5        5       62
+0.656250 0.597656          512          512.0        4        1       84
+0.632812 0.609375         1024         1024.0        5        5       54
+0.620605 0.608398         2048         2048.0        4        4       88
+0.585205 0.549805         4096         4096.0        5        1       48
+0.558350 0.531494         8192         8192.0        5        5       58
+0.539124 0.519897        16384        16384.0        4        3       74
+0.515167 0.491211        32768        32768.0        3        3      122
+0.496628 0.478088        65536        65536.0        3        3       64
+0.483673 0.470718       131072       131072.0        3        2       90
+0.471272 0.458870       262144       262144.0        2        2      166
+0.461372 0.451473       524288       524288.0        3        2       82
+0.452322 0.443272      1048576      1048576.0        5        4      182
+0.444583 0.444583      2097152      2097152.0        4        4      214 h
+0.442425 0.440268      4194304      4194304.0        1        1      122 h
+0.445274 0.448123      8388608      8388608.0        2        2       76 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.439904 h
+total feature number = 1251097365
+Run:{2,None,0.9}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.906250 0.937500           32           32.0        2        1       67
+0.828125 0.750000           64           64.0        4        1      217
+0.804688 0.781250          128          128.0        3        3       58
+0.777344 0.750000          256          256.0        5        2       91
+0.712891 0.648438          512          512.0        4        1      124
+0.707031 0.701172         1024         1024.0        5        2       79
+0.706055 0.705078         2048         2048.0        4        3      130
+0.682373 0.658691         4096         4096.0        5        1       70
+0.664795 0.647217         8192         8192.0        5        4       85
+0.654968 0.645142        16384        16384.0        4        3      109
+0.643677 0.632385        32768        32768.0        3        3      181
+0.629227 0.614777        65536        65536.0        3        2       94
+0.616592 0.603958       131072       131072.0        3        2      133
+0.605289 0.593987       262144       262144.0        2        2      247
+0.593327 0.581364       524288       524288.0        3        2      121
+0.575273 0.557219      1048576      1048576.0        5        2      271
+0.556344 0.556344      2097152      2097152.0        4        3      319 h
+0.539204 0.522065      4194304      4194304.0        1        1      181 h
+0.525196 0.511188      8388608      8388608.0        2        5      112 h
+0.514664 0.504132     16777216     16777216.0        3        4       64 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.497159 h
+total feature number = 5569938255
+Run:{2,1,0.001}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.906250 0.937500           32           32.0        2        1       67
+0.828125 0.750000           64           64.0        4        1      217
+0.796875 0.765625          128          128.0        3        3       58
+0.773438 0.750000          256          256.0        5        2       91
+0.708984 0.644531          512          512.0        4        1      124
+0.705078 0.701172         1024         1024.0        5        2       79
+0.695312 0.685547         2048         2048.0        4        3      130
+0.654541 0.613770         4096         4096.0        5        1       70
+0.623657 0.592773         8192         8192.0        5        5       85
+0.597351 0.571045        16384        16384.0        4        3      109
+0.570862 0.544373        32768        32768.0        3        3      181
+0.545517 0.520172        65536        65536.0        3        1       94
+0.530083 0.514648       131072       131072.0        3        2      133
+0.516434 0.502785       262144       262144.0        2        1      247
+0.507450 0.498466       524288       524288.0        3        2      121
+0.497461 0.487473      1048576      1048576.0        5        5      271
+0.489775 0.489775      2097152      2097152.0        4        3      319 h
+0.480525 0.471275      4194304      4194304.0        1        1      181 h
+0.471065 0.461604      8388608      8388608.0        2        5      112 h
+0.461345 0.451625     16777216     16777216.0        3        4       64 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.440593 h
+total feature number = 5569938255
+Run:{2,1,0.01}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.906250 0.937500           32           32.0        2        1       67
+0.812500 0.718750           64           64.0        4        5      217
+0.750000 0.687500          128          128.0        3        3       58
+0.734375 0.718750          256          256.0        5        5       91
+0.679688 0.625000          512          512.0        4        1      124
+0.658203 0.636719         1024         1024.0        5        3       79
+0.634766 0.611328         2048         2048.0        4        4      130
+0.603027 0.571289         4096         4096.0        5        1       70
+0.564819 0.526611         8192         8192.0        5        5       85
+0.546021 0.527222        16384        16384.0        4        3      109
+0.523834 0.501648        32768        32768.0        3        3      181
+0.504471 0.485107        65536        65536.0        3        3       94
+0.488983 0.473495       131072       131072.0        3        2      133
+0.473385 0.457787       262144       262144.0        2        2      247
+0.460690 0.447994       524288       524288.0        3        2      121
+0.448009 0.435329      1048576      1048576.0        5        4      271
+0.438392 0.438392      2097152      2097152.0        4        4      319 h
+0.430537 0.422683      4194304      4194304.0        1        1      181 h
+0.425141 0.419745      8388608      8388608.0        2        2      112 h
+0.422180 0.419219     16777216     16777216.0        3        4       64 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 9
+weighted example sum = 18000000.000000
+weighted label sum = 0.000000
+average loss = 0.419008 h
+total feature number = 3341962953
+Run:{2,1,0.1}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.875000 0.875000           32           32.0        2        2       67
+0.765625 0.656250           64           64.0        4        3      217
+0.734375 0.703125          128          128.0        3        3       58
+0.714844 0.695312          256          256.0        5        5       91
+0.656250 0.597656          512          512.0        4        1      124
+0.635742 0.615234         1024         1024.0        5        3       79
+0.619629 0.603516         2048         2048.0        4        4      130
+0.588135 0.556641         4096         4096.0        5        1       70
+0.549316 0.510498         8192         8192.0        5        5       85
+0.532837 0.516357        16384        16384.0        4        3      109
+0.511139 0.489441        32768        32768.0        3        3      181
+0.491974 0.472809        65536        65536.0        3        3       94
+0.477982 0.463989       131072       131072.0        3        2      133
+0.463100 0.448219       262144       262144.0        2        2      247
+0.452126 0.441151       524288       524288.0        3        2      121
+0.441333 0.430540      1048576      1048576.0        5        4      271
+0.433246 0.433246      2097152      2097152.0        4        4      319 h
+0.428321 0.423395      4194304      4194304.0        1        1      181 h
+0.427473 0.426626      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.423371 h
+total feature number = 1856646085
+Run:{2,1,0.3}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.875000 0.875000           32           32.0        2        2       67
+0.812500 0.750000           64           64.0        4        3      217
+0.750000 0.687500          128          128.0        3        3       58
+0.722656 0.695312          256          256.0        5        5       91
+0.667969 0.613281          512          512.0        4        1      124
+0.638672 0.609375         1024         1024.0        5        3       79
+0.624023 0.609375         2048         2048.0        4        4      130
+0.588623 0.553223         4096         4096.0        5        1       70
+0.550781 0.512939         8192         8192.0        5        5       85
+0.534973 0.519165        16384        16384.0        4        3      109
+0.511230 0.487488        32768        32768.0        3        3      181
+0.491760 0.472290        65536        65536.0        3        3       94
+0.478607 0.465454       131072       131072.0        3        2      133
+0.464588 0.450569       262144       262144.0        2        2      247
+0.454424 0.444260       524288       524288.0        3        2      121
+0.444646 0.434868      1048576      1048576.0        5        4      271
+0.437417 0.437417      2097152      2097152.0        4        4      319 h
+0.433852 0.430287      4194304      4194304.0        1        1      181 h
+0.434687 0.435522      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.430076 h
+total feature number = 1856646085
+Run:{2,1,0.5}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.843750 0.812500           32           32.0        2        2       67
+0.796875 0.750000           64           64.0        4        3      217
+0.742188 0.687500          128          128.0        3        3       58
+0.707031 0.671875          256          256.0        5        5       91
+0.660156 0.613281          512          512.0        4        1      124
+0.637695 0.615234         1024         1024.0        5        3       79
+0.623535 0.609375         2048         2048.0        4        4      130
+0.588623 0.553711         4096         4096.0        5        1       70
+0.550293 0.511963         8192         8192.0        5        5       85
+0.535156 0.520020        16384        16384.0        4        3      109
+0.511810 0.488464        32768        32768.0        3        3      181
+0.492447 0.473083        65536        65536.0        3        3       94
+0.480103 0.467758       131072       131072.0        3        2      133
+0.467064 0.454025       262144       262144.0        2        2      247
+0.457777 0.448490       524288       524288.0        3        3      121
+0.448562 0.439346      1048576      1048576.0        5        4      271
+0.441782 0.441782      2097152      2097152.0        4        4      319 h
+0.438999 0.436216      4194304      4194304.0        1        1      181 h
+0.440552 0.442104      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.435801 h
+total feature number = 1856646085
+Run:{2,1,0.7}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.875000 0.875000           32           32.0        2        3       67
+0.812500 0.750000           64           64.0        4        3      217
+0.750000 0.687500          128          128.0        3        3       58
+0.718750 0.687500          256          256.0        5        5       91
+0.664062 0.609375          512          512.0        4        1      124
+0.639648 0.615234         1024         1024.0        5        3       79
+0.624512 0.609375         2048         2048.0        4        4      130
+0.588135 0.551758         4096         4096.0        5        1       70
+0.550415 0.512695         8192         8192.0        5        5       85
+0.535828 0.521240        16384        16384.0        4        3      109
+0.511871 0.487915        32768        32768.0        3        3      181
+0.492996 0.474121        65536        65536.0        3        3       94
+0.481392 0.469788       131072       131072.0        3        2      133
+0.469318 0.457245       262144       262144.0        2        2      247
+0.460665 0.452011       524288       524288.0        3        3      121
+0.452007 0.443350      1048576      1048576.0        5        4      271
+0.445750 0.445750      2097152      2097152.0        4        4      319 h
+0.443329 0.440907      4194304      4194304.0        1        1      181 h
+0.445321 0.447314      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.440458 h
+total feature number = 1856646085
+Run:{2,1,0.9}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.906250 0.937500           32           32.0        2        1       67
+0.812500 0.718750           64           64.0        4        1      217
+0.796875 0.781250          128          128.0        3        3       58
+0.761719 0.726562          256          256.0        5        2       91
+0.703125 0.644531          512          512.0        4        1      124
+0.709961 0.716797         1024         1024.0        5        2       79
+0.711914 0.713867         2048         2048.0        4        3      130
+0.685791 0.659668         4096         4096.0        5        1       70
+0.669800 0.653809         8192         8192.0        5        4       85
+0.659912 0.650024        16384        16384.0        4        2      109
+0.649567 0.639221        32768        32768.0        3        3      181
+0.635880 0.622192        65536        65536.0        3        2       94
+0.623840 0.611801       131072       131072.0        3        2      133
+0.612839 0.601837       262144       262144.0        2        2      247
+0.601393 0.589947       524288       524288.0        3        2      121
+0.583001 0.564610      1048576      1048576.0        5        2      271
+0.562858 0.562858      2097152      2097152.0        4        3      319 h
+0.543870 0.524881      4194304      4194304.0        1        1      181 h
+0.528075 0.512280      8388608      8388608.0        2        5      112 h
+0.516022 0.503968     16777216     16777216.0        3        4       64 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.496797 h
+total feature number = 5569938255
+Run:{3,None,0.001}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.937500 1.000000           32           32.0        2        1       67
+0.828125 0.718750           64           64.0        4        1      217
+0.789062 0.750000          128          128.0        3        3       58
+0.765625 0.742188          256          256.0        5        2       91
+0.701172 0.636719          512          512.0        4        1      124
+0.697266 0.693359         1024         1024.0        5        2       79
+0.697266 0.697266         2048         2048.0        4        3      130
+0.656250 0.615234         4096         4096.0        5        1       70
+0.627197 0.598145         8192         8192.0        5        5       85
+0.603638 0.580078        16384        16384.0        4        3      109
+0.575043 0.546448        32768        32768.0        3        3      181
+0.549286 0.523529        65536        65536.0        3        1       94
+0.532684 0.516083       131072       131072.0        3        2      133
+0.517773 0.502861       262144       262144.0        2        1      247
+0.508215 0.498657       524288       524288.0        3        2      121
+0.498404 0.488592      1048576      1048576.0        5        5      271
+0.490639 0.490639      2097152      2097152.0        4        3      319 h
+0.481581 0.472523      4194304      4194304.0        1        1      181 h
+0.472350 0.463119      8388608      8388608.0        2        5      112 h
+0.462871 0.453391     16777216     16777216.0        3        4       64 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.442258 h
+total feature number = 5569938255
+Run:{3,None,0.01}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.937500 1.000000           32           32.0        2        1       67
+0.828125 0.718750           64           64.0        4        1      217
+0.757812 0.687500          128          128.0        3        3       58
+0.738281 0.718750          256          256.0        5        5       91
+0.681641 0.625000          512          512.0        4        1      124
+0.663086 0.644531         1024         1024.0        5        3       79
+0.643555 0.624023         2048         2048.0        4        4      130
+0.605957 0.568359         4096         4096.0        5        1       70
+0.570557 0.535156         8192         8192.0        5        5       85
+0.547791 0.525024        16384        16384.0        4        3      109
+0.523865 0.499939        32768        32768.0        3        3      181
+0.505569 0.487274        65536        65536.0        3        1       94
+0.490753 0.475937       131072       131072.0        3        2      133
+0.475811 0.460869       262144       262144.0        2        2      247
+0.462801 0.449791       524288       524288.0        3        1      121
+0.450044 0.437286      1048576      1048576.0        5        5      271
+0.440045 0.440045      2097152      2097152.0        4        4      319 h
+0.432185 0.424326      4194304      4194304.0        1        1      181 h
+0.426950 0.421715      8388608      8388608.0        2        2      112 h
+0.424215 0.421479     16777216     16777216.0        3        4       64 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 9
+weighted example sum = 18000000.000000
+weighted label sum = 0.000000
+average loss = 0.421091 h
+total feature number = 3341962953
+Run:{3,None,0.1}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.906250 0.937500           32           32.0        2        2       67
+0.781250 0.656250           64           64.0        4        3      217
+0.726562 0.671875          128          128.0        3        3       58
+0.722656 0.718750          256          256.0        5        5       91
+0.664062 0.605469          512          512.0        4        1      124
+0.642578 0.621094         1024         1024.0        5        3       79
+0.625977 0.609375         2048         2048.0        4        4      130
+0.591553 0.557129         4096         4096.0        5        1       70
+0.556396 0.521240         8192         8192.0        5        5       85
+0.534668 0.512939        16384        16384.0        4        3      109
+0.512848 0.491028        32768        32768.0        3        3      181
+0.492798 0.472748        65536        65536.0        3        3       94
+0.478691 0.464584       131072       131072.0        3        2      133
+0.464558 0.450424       262144       262144.0        2        2      247
+0.453014 0.441471       524288       524288.0        3        1      121
+0.442675 0.432335      1048576      1048576.0        5        4      271
+0.434902 0.434902      2097152      2097152.0        4        4      319 h
+0.430188 0.425474      4194304      4194304.0        1        1      181 h
+0.429634 0.429080      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.425446 h
+total feature number = 1856646085
+Run:{3,None,0.3}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.875000 0.875000           32           32.0        2        2       67
+0.781250 0.687500           64           64.0        4        3      217
+0.734375 0.687500          128          128.0        3        3       58
+0.714844 0.695312          256          256.0        5        5       91
+0.664062 0.613281          512          512.0        4        1      124
+0.638672 0.613281         1024         1024.0        5        3       79
+0.623047 0.607422         2048         2048.0        4        4      130
+0.589111 0.555176         4096         4096.0        5        1       70
+0.556641 0.524170         8192         8192.0        5        5       85
+0.533386 0.510132        16384        16384.0        4        3      109
+0.510834 0.488281        32768        32768.0        3        3      181
+0.491547 0.472260        65536        65536.0        3        3       94
+0.478241 0.464935       131072       131072.0        3        2      133
+0.465405 0.452568       262144       262144.0        2        2      247
+0.454872 0.444340       524288       524288.0        3        1      121
+0.445558 0.436243      1048576      1048576.0        5        4      271
+0.438796 0.438796      2097152      2097152.0        4        4      319 h
+0.435528 0.432261      4194304      4194304.0        1        1      181 h
+0.436496 0.437464      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.432035 h
+total feature number = 1856646085
+Run:{3,None,0.5}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.843750 0.812500           32           32.0        2        2       67
+0.812500 0.781250           64           64.0        4        3      217
+0.750000 0.687500          128          128.0        3        3       58
+0.718750 0.687500          256          256.0        5        5       91
+0.667969 0.617188          512          512.0        4        1      124
+0.640625 0.613281         1024         1024.0        5        3       79
+0.621094 0.601562         2048         2048.0        4        4      130
+0.587891 0.554688         4096         4096.0        5        1       70
+0.555664 0.523438         8192         8192.0        5        5       85
+0.533936 0.512207        16384        16384.0        4        3      109
+0.511444 0.488953        32768        32768.0        3        3      181
+0.492310 0.473175        65536        65536.0        3        3       94
+0.478966 0.465622       131072       131072.0        3        2      133
+0.466908 0.454849       262144       262144.0        2        2      247
+0.457607 0.448307       524288       524288.0        3        1      121
+0.449370 0.441133      1048576      1048576.0        5        4      271
+0.443345 0.443345      2097152      2097152.0        4        4      319 h
+0.440579 0.437812      4194304      4194304.0        1        1      181 h
+0.442146 0.443714      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.437625 h
+total feature number = 1856646085
+Run:{3,None,0.7}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1       76
+1.000000 1.000000            2            2.0        5        4      118
+1.000000 1.000000            4            4.0        4        5      121
+0.750000 0.500000            8            8.0        1        1      208
+0.875000 1.000000           16           16.0        3        4      109
+0.843750 0.812500           32           32.0        2        2       67
+0.796875 0.750000           64           64.0        4        3      217
+0.742188 0.687500          128          128.0        3        3       58
+0.714844 0.687500          256          256.0        5        5       91
+0.664062 0.613281          512          512.0        4        1      124
+0.639648 0.615234         1024         1024.0        5        3       79
+0.622559 0.605469         2048         2048.0        4        4      130
+0.589355 0.556152         4096         4096.0        5        1       70
+0.555908 0.522461         8192         8192.0        5        5       85
+0.534729 0.513550        16384        16384.0        4        3      109
+0.512360 0.489990        32768        32768.0        3        3      181
+0.493164 0.473969        65536        65536.0        3        3       94
+0.480148 0.467133       131072       131072.0        3        2      133
+0.468796 0.457443       262144       262144.0        2        2      247
+0.460098 0.451401       524288       524288.0        3        1      121
+0.452541 0.444984      1048576      1048576.0        5        4      271
+0.447103 0.447103      2097152      2097152.0        4        4      319 h
+0.444828 0.442554      4194304      4194304.0        1        1      181 h
+0.446569 0.448310      8388608      8388608.0        2        2      112 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.442356 h
+total feature number = 1856646085
+Run:{3,None,0.9}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1      146
+1.000000 1.000000            2            2.0        5        4      230
+1.000000 1.000000            4            4.0        4        5      236
+0.750000 0.500000            8            8.0        1        1      410
+0.875000 1.000000           16           16.0        3        4      212
+0.875000 0.875000           32           32.0        2        1      128
+0.812500 0.750000           64           64.0        4        1      428
+0.796875 0.781250          128          128.0        3        3      110
+0.765625 0.734375          256          256.0        5        2      176
+0.714844 0.664062          512          512.0        4        1      242
+0.710938 0.707031         1024         1024.0        5        2      152
+0.707520 0.704102         2048         2048.0        4        2      254
+0.682129 0.656738         4096         4096.0        5        1      134
+0.664429 0.646729         8192         8192.0        5        4      164
+0.653442 0.642456        16384        16384.0        4        3      212
+0.643921 0.634399        32768        32768.0        3        3      356
+0.629288 0.614655        65536        65536.0        3        2      182
+0.618294 0.607300       131072       131072.0        3        2      260
+0.608936 0.599579       262144       262144.0        2        2      488
+0.599457 0.589977       524288       524288.0        3        2      236
+0.583119 0.566782      1048576      1048576.0        5        2      536
+0.564082 0.564082      2097152      2097152.0        4        3      632 h
+0.545424 0.526767      4194304      4194304.0        1        1      356 h
+0.528368 0.511312      8388608      8388608.0        2        5      218 h
+0.514968 0.501568     16777216     16777216.0        3        4      122 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.493890 h
+total feature number = 10959877035
+Run:{3,1,0.001}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1      146
+1.000000 1.000000            2            2.0        5        4      230
+1.000000 1.000000            4            4.0        4        5      236
+0.750000 0.500000            8            8.0        1        1      410
+0.875000 1.000000           16           16.0        3        4      212
+0.875000 0.875000           32           32.0        2        1      128
+0.812500 0.750000           64           64.0        4        1      428
+0.781250 0.750000          128          128.0        3        3      110
+0.769531 0.757812          256          256.0        5        2      176
+0.714844 0.660156          512          512.0        4        1      242
+0.712891 0.710938         1024         1024.0        5        2      152
+0.704102 0.695312         2048         2048.0        4        3      254
+0.661865 0.619629         4096         4096.0        5        1      134
+0.631226 0.600586         8192         8192.0        5        5      164
+0.606140 0.581055        16384        16384.0        4        3      212
+0.579468 0.552795        32768        32768.0        3        3      356
+0.552567 0.525665        65536        65536.0        3        1      182
+0.535210 0.517853       131072       131072.0        3        2      260
+0.518402 0.501595       262144       262144.0        2        1      488
+0.508020 0.497639       524288       524288.0        3        2      236
+0.497638 0.487255      1048576      1048576.0        5        5      536
+0.490058 0.490058      2097152      2097152.0        4        3      632 h
+0.481316 0.472573      4194304      4194304.0        1        1      356 h
+0.472326 0.463337      8388608      8388608.0        2        5      218 h
+0.463032 0.453738     16777216     16777216.0        3        4      122 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 15
+weighted example sum = 30000000.000000
+weighted label sum = 0.000000
+average loss = 0.442244 h
+total feature number = 10959877035
+Run:{3,1,0.01}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1      146
+1.000000 1.000000            2            2.0        5        4      230
+1.000000 1.000000            4            4.0        4        5      236
+0.750000 0.500000            8            8.0        1        1      410
+0.875000 1.000000           16           16.0        3        4      212
+0.906250 0.937500           32           32.0        2        1      128
+0.812500 0.718750           64           64.0        4        5      428
+0.781250 0.750000          128          128.0        3        3      110
+0.753906 0.726562          256          256.0        5        5      176
+0.697266 0.640625          512          512.0        4        1      242
+0.675781 0.654297         1024         1024.0        5        2      152
+0.648438 0.621094         2048         2048.0        4        4      254
+0.616211 0.583984         4096         4096.0        5        1      134
+0.572388 0.528564         8192         8192.0        5        5      164
+0.551880 0.531372        16384        16384.0        4        3      212
+0.528442 0.505005        32768        32768.0        3        3      356
+0.508835 0.489227        65536        65536.0        3        1      182
+0.495056 0.481277       131072       131072.0        3        3      260
+0.479343 0.463631       262144       262144.0        2        2      488
+0.466629 0.453915       524288       524288.0        3        1      236
+0.453153 0.439676      1048576      1048576.0        5        4      536
+0.442436 0.442436      2097152      2097152.0        4        4      632 h
+0.434141 0.425847      4194304      4194304.0        1        1      356 h
+0.428720 0.423299      8388608      8388608.0        2        2      218 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 7
+weighted example sum = 14000000.000000
+weighted label sum = 0.000000
+average loss = 0.422832 h
+total feature number = 5114609283
+Run:{3,1,0.1}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1      146
+1.000000 1.000000            2            2.0        5        4      230
+1.000000 1.000000            4            4.0        4        5      236
+0.750000 0.500000            8            8.0        1        1      410
+0.812500 0.875000           16           16.0        3        4      212
+0.875000 0.937500           32           32.0        2        1      128
+0.781250 0.687500           64           64.0        4        3      428
+0.742188 0.703125          128          128.0        3        3      110
+0.734375 0.726562          256          256.0        5        5      176
+0.687500 0.640625          512          512.0        4        1      242
+0.659180 0.630859         1024         1024.0        5        3      152
+0.634766 0.610352         2048         2048.0        4        4      254
+0.598145 0.561523         4096         4096.0        5        1      134
+0.557861 0.517578         8192         8192.0        5        5      164
+0.537048 0.516235        16384        16384.0        4        3      212
+0.516663 0.496277        32768        32768.0        3        3      356
+0.497894 0.479126        65536        65536.0        3        1      182
+0.484787 0.471680       131072       131072.0        3        3      260
+0.469791 0.454796       262144       262144.0        2        2      488
+0.458506 0.447220       524288       524288.0        3        1      236
+0.447245 0.435984      1048576      1048576.0        5        4      536
+0.438603 0.438603      2097152      2097152.0        4        4      632 h
+0.433790 0.428977      4194304      4194304.0        1        1      356 h
+0.433107 0.432425      8388608      8388608.0        2        2      218 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.428884 h
+total feature number = 3653292345
+Run:{3,1,0.3}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1      146
+1.000000 1.000000            2            2.0        5        4      230
+1.000000 1.000000            4            4.0        4        5      236
+0.750000 0.500000            8            8.0        1        1      410
+0.812500 0.875000           16           16.0        3        4      212
+0.812500 0.812500           32           32.0        2        2      128
+0.765625 0.718750           64           64.0        4        3      428
+0.734375 0.703125          128          128.0        3        3      110
+0.726562 0.718750          256          256.0        5        5      176
+0.677734 0.628906          512          512.0        4        1      242
+0.651367 0.625000         1024         1024.0        5        3      152
+0.629395 0.607422         2048         2048.0        4        4      254
+0.594238 0.559082         4096         4096.0        5        1      134
+0.555908 0.517578         8192         8192.0        5        5      164
+0.535950 0.515991        16384        16384.0        4        3      212
+0.515259 0.494568        32768        32768.0        3        3      356
+0.496643 0.478027        65536        65536.0        3        1      182
+0.483833 0.471024       131072       131072.0        3        3      260
+0.470036 0.456238       262144       262144.0        2        2      488
+0.460012 0.449989       524288       524288.0        3        1      236
+0.450222 0.440432      1048576      1048576.0        5        4      536
+0.442834 0.442834      2097152      2097152.0        4        4      632 h
+0.439178 0.435521      4194304      4194304.0        1        1      356 h
+0.439810 0.440442      8388608      8388608.0        2        2      218 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.435314 h
+total feature number = 3653292345
+Run:{3,1,0.5}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1      146
+1.000000 1.000000            2            2.0        5        4      230
+1.000000 1.000000            4            4.0        4        5      236
+0.750000 0.500000            8            8.0        1        1      410
+0.812500 0.875000           16           16.0        3        4      212
+0.812500 0.812500           32           32.0        2        2      128
+0.781250 0.750000           64           64.0        4        3      428
+0.742188 0.703125          128          128.0        3        3      110
+0.722656 0.703125          256          256.0        5        5      176
+0.675781 0.628906          512          512.0        4        1      242
+0.648438 0.621094         1024         1024.0        5        3      152
+0.629395 0.610352         2048         2048.0        4        4      254
+0.591553 0.553711         4096         4096.0        5        1      134
+0.554321 0.517090         8192         8192.0        5        5      164
+0.534851 0.515381        16384        16384.0        4        3      212
+0.514893 0.494934        32768        32768.0        3        3      356
+0.496338 0.477783        65536        65536.0        3        1      182
+0.484398 0.472458       131072       131072.0        3        3      260
+0.471283 0.458168       262144       262144.0        2        2      488
+0.462269 0.453255       524288       524288.0        3        1      236
+0.453390 0.444511      1048576      1048576.0        5        4      536
+0.446674 0.446674      2097152      2097152.0        4        4      632 h
+0.443710 0.440746      4194304      4194304.0        1        1      356 h
+0.444783 0.445856      8388608      8388608.0        2        2      218 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.440467 h
+total feature number = 3653292345
+Run:{3,1,0.7}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/amazon_review_full_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0        4        1      146
+1.000000 1.000000            2            2.0        5        4      230
+1.000000 1.000000            4            4.0        4        5      236
+0.750000 0.500000            8            8.0        1        1      410
+0.812500 0.875000           16           16.0        3        4      212
+0.812500 0.812500           32           32.0        2        2      128
+0.781250 0.750000           64           64.0        4        3      428
+0.742188 0.703125          128          128.0        3        3      110
+0.718750 0.695312          256          256.0        5        5      176
+0.673828 0.628906          512          512.0        4        1      242
+0.646484 0.619141         1024         1024.0        5        3      152
+0.627930 0.609375         2048         2048.0        4        4      254
+0.588867 0.549805         4096         4096.0        5        1      134
+0.551880 0.514893         8192         8192.0        5        5      164
+0.533691 0.515503        16384        16384.0        4        3      212
+0.513977 0.494263        32768        32768.0        3        3      356
+0.495697 0.477417        65536        65536.0        3        1      182
+0.484459 0.473221       131072       131072.0        3        3      260
+0.472038 0.459618       262144       262144.0        2        2      488
+0.464024 0.456009       524288       524288.0        3        1      236
+0.455815 0.447607      1048576      1048576.0        5        4      536
+0.450364 0.450364      2097152      2097152.0        4        4      632 h
+0.447571 0.444778      4194304      4194304.0        1        1      356 h
+0.448796 0.450021      8388608      8388608.0        2        2      218 h
+
+finished run
+number of examples per pass = 2000000
+passes used = 5
+weighted example sum = 10000000.000000
+weighted label sum = 0.000000
+average loss = 0.444510 h
+total feature number = 3653292345
+Run:{3,1,0.9}
+
+
