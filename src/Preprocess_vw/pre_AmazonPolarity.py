@@ -12,6 +12,7 @@ def main():
 	train_vm = "../../data/amazon_review_polarity_csv/train_vw.csv"
 	test_vm = "../../data/amazon_review_polarity_csv/test_vw.csv"
 
+
 	if os.path.isfile(train_path) and os.path.isfile(test_path):
 		print("Read: " + train_path)
 		train_data = pd.read_csv(train_path, names=['class','title','review'])
@@ -26,6 +27,7 @@ def main():
 		print("Write: " + train_vm)
 		with open(train_vm,'w') as f:
 			np.savetxt(f,train_data,fmt="%s")
+
 
 		print("Write: " + test_vm)
 		with open(test_vm,'w') as f:

@@ -23,7 +23,6 @@ def main():
 		train_data = clean(train_data)
 		test_data = clean(test_data)
 
-
 		print("Write: " + train_vm)
 		with open(train_vm,'w') as f:
 			np.savetxt(f,train_data,fmt="%s")

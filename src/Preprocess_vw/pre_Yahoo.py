@@ -11,6 +11,7 @@ def main():
 
 	train_vm = "../../data/yahoo_answers_csv/train_vw.csv"
 	test_vm = "../../data/yahoo_answers_csv/test_vw.csv"
+	valid_vm = "../../data/yahoo_answers_csv/valid_vw.csv"
 
 	if os.path.isfile(train_path) and os.path.isfile(test_path):
 		print("Read: " + train_path)
@@ -26,6 +27,7 @@ def main():
 		print("Write: " + train_vm)
 		with open(train_vm,'w') as f:
 			np.savetxt(f,train_data,fmt="%s")
+
 
 		print("Write: " + test_vm)
 		with open(test_vm,'w') as f:

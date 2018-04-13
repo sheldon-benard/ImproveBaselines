@@ -129,9 +129,8 @@ Methodology:
     ./vw -t ../../dbpedia_csv/test_vm.csv -i ../../dbpedia_csv/model.vw -p ../../dbpedia_csv/pred.txt
 
 
-    ./vw --oaa 5 -d ../../sogou_news_csv/train_vm.csv --loss_function hinge -b25 --ngram 2 -f ../../sogou_news_csv/model.vw
-    ./vw -t ../../sogou_news_csv/test_vm.csv -i ../../sogou_news_csv/model.vw -p ../../sogou_news_csv/pred.txt
-
+    ./vw --oaa 5 -d ../../../data/sogou_news_csv/train_vw.csv --loss_function hinge -b25 --ngram 2 -f ../../../data/sogou_news_csv/model.vw
+    ./vw -t ../../../data/sogou_news_csv/test_vw.csv -i ../../../data/sogou_news_csv/model.vw -p ../../../data/sogou_news_csv/pred.txt
 
     ./vw --oaa 10 -d ../../yahoo_answers_csv/train_vm.csv --loss_function hinge -b25  -f ../../yahoo_answers_csv/model.vw
     ./vw -t ../../yahoo_answers_csv/test_vm.csv -i ../../yahoo_answers_csv/model.vw -p ../../yahoo_answers_csv/pred.txt

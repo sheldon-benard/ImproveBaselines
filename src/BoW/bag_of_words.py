@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 
 
 
-def sparse_log_reg(load):
+def sparse_log_reg(load,multi,max_iter):
 	train_x,train_y,test_x,test_y = load()
 	print("train_x",train_x.shape,"test_x",test_x.shape)
 	features = 5000
@@ -23,7 +23,12 @@ def sparse_log_reg(load):
 	Y = np.asarray(train_y)
 
 	print("LogReg fit")
-	classifier = LogisticRegression(multi_class='multinomial',solver='sag')
+	classifier = None
+	if multi:
+		classifier = LogisticRegression(multi_class='multinomial',solver='sag',max_iter=max_iter)
+	else:
+		classifier = LogisticRegression()
+
 	classifier.fit(train_grams, Y)
 
 	train_y = None
@@ -44,20 +49,26 @@ def sparse_log_reg(load):
 
 
 if __name__ == "__main__":
-	if len(sys.argv) == 2:
+	if len(sys.argv) == 3:
+		multi = False
+		if sys.argv[2] == 'multi':
+			multi = True
+			print("Using multinomial Log Reg")
+
+
 		if sys.argv[1] == "DBPedia":
-			sparse_log_reg(loadDBPedia)
+			sparse_log_reg(loadDBPedia,multi,100)
 		if sys.argv[1] == "amazon_full":
-			sparse_log_reg(loadAmazonFull)
+			sparse_log_reg(loadAmazonFull,multi,100)
 		if sys.argv[1] == "amazon_polarity":
-			sparse_log_reg(loadAmazonPolarity)
+			sparse_log_reg(loadAmazonPolarity,multi,100)
 		if sys.argv[1] == "yahoo":
-			sparse_log_reg(loadYahoo)
+			sparse_log_reg(loadYahoo,multi,1500)
 		if sys.argv[1] == "sogou":
-			sparse_log_reg(loadSogou)
+			sparse_log_reg(loadSogou,multi,100)
 		if sys.argv[1] == "ag":
-			sparse_log_reg(loadAG)
+			sparse_log_reg(loadAG,multi,100)
 
 
 	else:
-		print("Provide 1 command-line argument to specify dataset")
+		print("Provide 2 command-line argument to specify dataset and multi/ovr")
