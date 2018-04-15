@@ -1,0 +1,1952 @@
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        3      823
+0.875000 1.000000           16           16.0        2        1      990
+0.843750 0.812500           32           32.0        4        1     1408
+0.781250 0.718750           64           64.0        4        1      385
+0.671875 0.562500          128          128.0        4        4      268
+0.609375 0.546875          256          256.0        3        1     1697
+0.550781 0.492188          512          512.0        4        2      640
+0.555664 0.560547         1024         1024.0        4        2       35
+0.534668 0.513672         2048         2048.0        4        2     2022
+0.493652 0.452637         4096         4096.0        4        2      140
+0.409912 0.326172         8192         8192.0        1        1       63
+0.319214 0.228516        16384        16384.0        3        3      324
+0.252869 0.186523        32768        32768.0        3        3      571
+0.214630 0.176392        65536        65536.0        2        2      319
+0.187599 0.160568       131072       131072.0        2        2      507
+0.168491 0.149384       262144       262144.0        2        2      874
+0.152215 0.152215       524288       524288.0        4        3       12 h
+0.138361 0.124508      1048576      1048576.0        1        1      623 h
+0.127486 0.116611      2097152      2097152.0        2        2      600 h
+0.119694 0.111901      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.110473 h
+total feature number = 2288973105
+Run:{1,None,0.001}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        3      823
+0.812500 0.875000           16           16.0        2        1      990
+0.750000 0.687500           32           32.0        4        1     1408
+0.593750 0.437500           64           64.0        4        4      385
+0.515625 0.437500          128          128.0        4        4      268
+0.437500 0.359375          256          256.0        3        3     1697
+0.355469 0.273438          512          512.0        4        4      640
+0.286133 0.216797         1024         1024.0        4        4       35
+0.233398 0.180664         2048         2048.0        4        4     2022
+0.189941 0.146484         4096         4096.0        4        4      140
+0.161377 0.132812         8192         8192.0        1        1       63
+0.143311 0.125244        16384        16384.0        3        3      324
+0.126587 0.109863        32768        32768.0        3        3      571
+0.118774 0.110962        65536        65536.0        2        2      319
+0.111328 0.103882       131072       131072.0        2        2      507
+0.105721 0.100113       262144       262144.0        2        2      874
+0.100369 0.100369       524288       524288.0        4        3       12 h
+0.095698 0.091026      1048576      1048576.0        1        1      623 h
+0.091396 0.087095      2097152      2097152.0        2        2      600 h
+0.086713 0.082030      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.080720 h
+total feature number = 2288973105
+Run:{1,None,0.01}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.656250 0.500000           32           32.0        4        4     1408
+0.578125 0.500000           64           64.0        4        4      385
+0.500000 0.421875          128          128.0        4        4      268
+0.421875 0.343750          256          256.0        3        3     1697
+0.318359 0.214844          512          512.0        4        4      640
+0.242188 0.166016         1024         1024.0        4        5       35
+0.196777 0.151367         2048         2048.0        4        4     2022
+0.158691 0.120605         4096         4096.0        4        4      140
+0.131836 0.104980         8192         8192.0        1        1       63
+0.115112 0.098389        16384        16384.0        3        3      324
+0.102417 0.089722        32768        32768.0        3        3      571
+0.095612 0.088806        65536        65536.0        2        2      319
+0.088463 0.081314       131072       131072.0        2        2      507
+0.083305 0.078148       262144       262144.0        2        2      874
+0.079300 0.079300       524288       524288.0        4        4       12 h
+0.077189 0.075077      1048576      1048576.0        1        1      623 h
+0.076111 0.075033      2097152      2097152.0        2        2      600 h
+0.075166 0.074221      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.073760 h
+total feature number = 2288973105
+Run:{1,None,0.1}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.687500 0.562500           32           32.0        4        4     1408
+0.578125 0.468750           64           64.0        4        4      385
+0.476562 0.375000          128          128.0        4        4      268
+0.414062 0.351562          256          256.0        3        3     1697
+0.318359 0.222656          512          512.0        4        4      640
+0.243164 0.167969         1024         1024.0        4        5       35
+0.196289 0.149414         2048         2048.0        4        4     2022
+0.163086 0.129883         4096         4096.0        4        4      140
+0.133057 0.103027         8192         8192.0        1        1       63
+0.116699 0.100342        16384        16384.0        3        3      324
+0.101715 0.086731        32768        32768.0        3        3      571
+0.095108 0.088501        65536        65536.0        2        2      319
+0.087692 0.080276       131072       131072.0        2        2      507
+0.082695 0.077698       262144       262144.0        2        2      874
+0.079190 0.079190       524288       524288.0        4        4       12 h
+0.076569 0.073948      1048576      1048576.0        1        1      623 h
+0.074685 0.072802      2097152      2097152.0        2        2      600 h
+0.073018 0.071350      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.070507 h
+total feature number = 2288973105
+Run:{1,None,0.3}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.718750 0.625000           32           32.0        4        4     1408
+0.609375 0.500000           64           64.0        4        4      385
+0.523438 0.437500          128          128.0        4        4      268
+0.429688 0.335938          256          256.0        3        3     1697
+0.324219 0.218750          512          512.0        4        4      640
+0.250977 0.177734         1024         1024.0        4        5       35
+0.203613 0.156250         2048         2048.0        4        4     2022
+0.171143 0.138672         4096         4096.0        4        2      140
+0.137695 0.104248         8192         8192.0        1        1       63
+0.122131 0.106567        16384        16384.0        3        3      324
+0.106140 0.090149        32768        32768.0        3        3      571
+0.098358 0.090576        65536        65536.0        2        2      319
+0.089920 0.081482       131072       131072.0        2        2      507
+0.084187 0.078453       262144       262144.0        2        2      874
+0.080368 0.080368       524288       524288.0        4        4       12 h
+0.076899 0.073429      1048576      1048576.0        1        1      623 h
+0.074250 0.071602      2097152      2097152.0        2        2      600 h
+0.072020 0.069790      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.068960 h
+total feature number = 2288973105
+Run:{1,None,0.5}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.750000 0.687500           32           32.0        4        5     1408
+0.593750 0.437500           64           64.0        4        4      385
+0.507812 0.421875          128          128.0        4        4      268
+0.425781 0.343750          256          256.0        3        3     1697
+0.328125 0.230469          512          512.0        4        4      640
+0.257812 0.187500         1024         1024.0        4        5       35
+0.210449 0.163086         2048         2048.0        4        4     2022
+0.177002 0.143555         4096         4096.0        4        2      140
+0.143066 0.109131         8192         8192.0        1        1       63
+0.126648 0.110229        16384        16384.0        3        3      324
+0.110687 0.094727        32768        32768.0        3        3      571
+0.102264 0.093842        65536        65536.0        2        2      319
+0.092873 0.083481       131072       131072.0        2        2      507
+0.086121 0.079369       262144       262144.0        2        2      874
+0.081383 0.081383       524288       524288.0        4        4       12 h
+0.077212 0.073040      1048576      1048576.0        1        1      623 h
+0.074056 0.070900      2097152      2097152.0        2        2      600 h
+0.071541 0.069026      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.068367 h
+total feature number = 2288973105
+Run:{1,None,0.7}
+
+
+Generating 1-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.750000 0.687500           32           32.0        4        5     1408
+0.593750 0.437500           64           64.0        4        4      385
+0.539062 0.484375          128          128.0        4        4      268
+0.445312 0.351562          256          256.0        3        3     1697
+0.337891 0.230469          512          512.0        4        4      640
+0.271484 0.205078         1024         1024.0        4        5       35
+0.220215 0.168945         2048         2048.0        4        4     2022
+0.182129 0.144043         4096         4096.0        4        2      140
+0.148071 0.114014         8192         8192.0        1        1       63
+0.131287 0.114502        16384        16384.0        3        3      324
+0.114899 0.098511        32768        32768.0        3        3      571
+0.106064 0.097229        65536        65536.0        2        2      319
+0.095825 0.085587       131072       131072.0        2        2      507
+0.088020 0.080215       262144       262144.0        2        2      874
+0.082318 0.082318       524288       524288.0        4        4       12 h
+0.077664 0.073009      1048576      1048576.0        1        1      623 h
+0.074205 0.070747      2097152      2097152.0        2        2      600 h
+0.071556 0.068906      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.068107 h
+total feature number = 2288973105
+Run:{1,None,0.9}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        3      823
+0.875000 1.000000           16           16.0        2        1      990
+0.843750 0.812500           32           32.0        4        1     1408
+0.781250 0.718750           64           64.0        4        1      385
+0.671875 0.562500          128          128.0        4        4      268
+0.609375 0.546875          256          256.0        3        1     1697
+0.550781 0.492188          512          512.0        4        2      640
+0.555664 0.560547         1024         1024.0        4        2       35
+0.534668 0.513672         2048         2048.0        4        2     2022
+0.493652 0.452637         4096         4096.0        4        2      140
+0.409912 0.326172         8192         8192.0        1        1       63
+0.319214 0.228516        16384        16384.0        3        3      324
+0.252869 0.186523        32768        32768.0        3        3      571
+0.214630 0.176392        65536        65536.0        2        2      319
+0.187599 0.160568       131072       131072.0        2        2      507
+0.168491 0.149384       262144       262144.0        2        2      874
+0.152215 0.152215       524288       524288.0        4        3       12 h
+0.138361 0.124508      1048576      1048576.0        1        1      623 h
+0.127486 0.116611      2097152      2097152.0        2        2      600 h
+0.119694 0.111901      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.110473 h
+total feature number = 2288973105
+Run:{1,1,0.001}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        3      823
+0.812500 0.875000           16           16.0        2        1      990
+0.750000 0.687500           32           32.0        4        1     1408
+0.593750 0.437500           64           64.0        4        4      385
+0.515625 0.437500          128          128.0        4        4      268
+0.437500 0.359375          256          256.0        3        3     1697
+0.355469 0.273438          512          512.0        4        4      640
+0.286133 0.216797         1024         1024.0        4        4       35
+0.233398 0.180664         2048         2048.0        4        4     2022
+0.189941 0.146484         4096         4096.0        4        4      140
+0.161377 0.132812         8192         8192.0        1        1       63
+0.143311 0.125244        16384        16384.0        3        3      324
+0.126587 0.109863        32768        32768.0        3        3      571
+0.118774 0.110962        65536        65536.0        2        2      319
+0.111328 0.103882       131072       131072.0        2        2      507
+0.105721 0.100113       262144       262144.0        2        2      874
+0.100369 0.100369       524288       524288.0        4        3       12 h
+0.095698 0.091026      1048576      1048576.0        1        1      623 h
+0.091396 0.087095      2097152      2097152.0        2        2      600 h
+0.086713 0.082030      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.080720 h
+total feature number = 2288973105
+Run:{1,1,0.01}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.656250 0.500000           32           32.0        4        4     1408
+0.578125 0.500000           64           64.0        4        4      385
+0.500000 0.421875          128          128.0        4        4      268
+0.421875 0.343750          256          256.0        3        3     1697
+0.318359 0.214844          512          512.0        4        4      640
+0.242188 0.166016         1024         1024.0        4        5       35
+0.196777 0.151367         2048         2048.0        4        4     2022
+0.158691 0.120605         4096         4096.0        4        4      140
+0.131836 0.104980         8192         8192.0        1        1       63
+0.115112 0.098389        16384        16384.0        3        3      324
+0.102417 0.089722        32768        32768.0        3        3      571
+0.095612 0.088806        65536        65536.0        2        2      319
+0.088463 0.081314       131072       131072.0        2        2      507
+0.083305 0.078148       262144       262144.0        2        2      874
+0.079300 0.079300       524288       524288.0        4        4       12 h
+0.077189 0.075077      1048576      1048576.0        1        1      623 h
+0.076111 0.075033      2097152      2097152.0        2        2      600 h
+0.075166 0.074221      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.073760 h
+total feature number = 2288973105
+Run:{1,1,0.1}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.687500 0.562500           32           32.0        4        4     1408
+0.578125 0.468750           64           64.0        4        4      385
+0.476562 0.375000          128          128.0        4        4      268
+0.414062 0.351562          256          256.0        3        3     1697
+0.318359 0.222656          512          512.0        4        4      640
+0.243164 0.167969         1024         1024.0        4        5       35
+0.196289 0.149414         2048         2048.0        4        4     2022
+0.163086 0.129883         4096         4096.0        4        4      140
+0.133057 0.103027         8192         8192.0        1        1       63
+0.116699 0.100342        16384        16384.0        3        3      324
+0.101715 0.086731        32768        32768.0        3        3      571
+0.095108 0.088501        65536        65536.0        2        2      319
+0.087692 0.080276       131072       131072.0        2        2      507
+0.082695 0.077698       262144       262144.0        2        2      874
+0.079190 0.079190       524288       524288.0        4        4       12 h
+0.076569 0.073948      1048576      1048576.0        1        1      623 h
+0.074685 0.072802      2097152      2097152.0        2        2      600 h
+0.073018 0.071350      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.070507 h
+total feature number = 2288973105
+Run:{1,1,0.3}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.718750 0.625000           32           32.0        4        4     1408
+0.609375 0.500000           64           64.0        4        4      385
+0.523438 0.437500          128          128.0        4        4      268
+0.429688 0.335938          256          256.0        3        3     1697
+0.324219 0.218750          512          512.0        4        4      640
+0.250977 0.177734         1024         1024.0        4        5       35
+0.203613 0.156250         2048         2048.0        4        4     2022
+0.171143 0.138672         4096         4096.0        4        2      140
+0.137695 0.104248         8192         8192.0        1        1       63
+0.122131 0.106567        16384        16384.0        3        3      324
+0.106140 0.090149        32768        32768.0        3        3      571
+0.098358 0.090576        65536        65536.0        2        2      319
+0.089920 0.081482       131072       131072.0        2        2      507
+0.084187 0.078453       262144       262144.0        2        2      874
+0.080368 0.080368       524288       524288.0        4        4       12 h
+0.076899 0.073429      1048576      1048576.0        1        1      623 h
+0.074250 0.071602      2097152      2097152.0        2        2      600 h
+0.072020 0.069790      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.068960 h
+total feature number = 2288973105
+Run:{1,1,0.5}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.750000 0.687500           32           32.0        4        5     1408
+0.593750 0.437500           64           64.0        4        4      385
+0.507812 0.421875          128          128.0        4        4      268
+0.425781 0.343750          256          256.0        3        3     1697
+0.328125 0.230469          512          512.0        4        4      640
+0.257812 0.187500         1024         1024.0        4        5       35
+0.210449 0.163086         2048         2048.0        4        4     2022
+0.177002 0.143555         4096         4096.0        4        2      140
+0.143066 0.109131         8192         8192.0        1        1       63
+0.126648 0.110229        16384        16384.0        3        3      324
+0.110687 0.094727        32768        32768.0        3        3      571
+0.102264 0.093842        65536        65536.0        2        2      319
+0.092873 0.083481       131072       131072.0        2        2      507
+0.086121 0.079369       262144       262144.0        2        2      874
+0.081383 0.081383       524288       524288.0        4        4       12 h
+0.077212 0.073040      1048576      1048576.0        1        1      623 h
+0.074056 0.070900      2097152      2097152.0        2        2      600 h
+0.071541 0.069026      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.068367 h
+total feature number = 2288973105
+Run:{1,1,0.7}
+
+
+Generating 1-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1      539
+0.500000 1.000000            2            2.0        3        1      272
+0.500000 0.500000            4            4.0        3        3      276
+0.750000 1.000000            8            8.0        5        2      823
+0.812500 0.875000           16           16.0        2        1      990
+0.750000 0.687500           32           32.0        4        5     1408
+0.593750 0.437500           64           64.0        4        4      385
+0.539062 0.484375          128          128.0        4        4      268
+0.445312 0.351562          256          256.0        3        3     1697
+0.337891 0.230469          512          512.0        4        4      640
+0.271484 0.205078         1024         1024.0        4        5       35
+0.220215 0.168945         2048         2048.0        4        4     2022
+0.182129 0.144043         4096         4096.0        4        2      140
+0.148071 0.114014         8192         8192.0        1        1       63
+0.131287 0.114502        16384        16384.0        3        3      324
+0.114899 0.098511        32768        32768.0        3        3      571
+0.106064 0.097229        65536        65536.0        2        2      319
+0.095825 0.085587       131072       131072.0        2        2      507
+0.088020 0.080215       262144       262144.0        2        2      874
+0.082318 0.082318       524288       524288.0        4        4       12 h
+0.077664 0.073009      1048576      1048576.0        1        1      623 h
+0.074205 0.070747      2097152      2097152.0        2        2      600 h
+0.071556 0.068906      4194304      4194304.0        4        4       95 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.068107 h
+total feature number = 2288973105
+Run:{1,1,0.9}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1076
+0.500000 1.000000            2            2.0        3        1      542
+0.500000 0.500000            4            4.0        3        3      550
+0.750000 1.000000            8            8.0        5        3     1644
+0.875000 1.000000           16           16.0        2        1     1978
+0.843750 0.812500           32           32.0        4        1     2814
+0.765625 0.687500           64           64.0        4        1      768
+0.656250 0.546875          128          128.0        4        4      534
+0.574219 0.492188          256          256.0        3        1     3392
+0.500000 0.425781          512          512.0        4        4     1278
+0.479492 0.458984         1024         1024.0        4        2       68
+0.458008 0.436523         2048         2048.0        4        2     4042
+0.411865 0.365723         4096         4096.0        4        2      278
+0.326538 0.241211         8192         8192.0        1        1      124
+0.253113 0.179688        16384        16384.0        3        3      646
+0.203308 0.153503        32768        32768.0        3        3     1140
+0.175186 0.147064        65536        65536.0        2        2      636
+0.155243 0.135300       131072       131072.0        2        2     1012
+0.138840 0.122437       262144       262144.0        2        2     1746
+0.122933 0.122933       524288       524288.0        4        3       22 h
+0.109751 0.096569      1048576      1048576.0        1        1     1244 h
+0.099747 0.089743      2097152      2097152.0        2        2     1198 h
+0.091797 0.083848      4194304      4194304.0        4        4      188 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.081240 h
+total feature number = 4568946210
+Run:{2,None,0.001}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1076
+0.500000 1.000000            2            2.0        3        1      542
+0.500000 0.500000            4            4.0        3        3      550
+0.750000 1.000000            8            8.0        5        3     1644
+0.875000 1.000000           16           16.0        2        1     1978
+0.781250 0.687500           32           32.0        4        1     2814
+0.593750 0.406250           64           64.0        4        4      768
+0.500000 0.406250          128          128.0        4        4      534
+0.386719 0.273438          256          256.0        3        3     3392
+0.296875 0.207031          512          512.0        4        4     1278
+0.236328 0.175781         1024         1024.0        4        4       68
+0.198730 0.161133         2048         2048.0        4        4     4042
+0.158936 0.119141         4096         4096.0        4        4      278
+0.132812 0.106689         8192         8192.0        1        1      124
+0.114929 0.097046        16384        16384.0        3        3      646
+0.100647 0.086365        32768        32768.0        3        3     1140
+0.093369 0.086090        65536        65536.0        2        2      636
+0.084435 0.075500       131072       131072.0        2        2     1012
+0.076126 0.067818       262144       262144.0        2        2     1746
+0.068844 0.068844       524288       524288.0        4        4       22 h
+0.063255 0.057667      1048576      1048576.0        1        1     1244 h
+0.058481 0.053707      2097152      2097152.0        2        2     1198 h
+0.054259 0.050036      4194304      4194304.0        4        4      188 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.048427 h
+total feature number = 4568946210
+Run:{2,None,0.01}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1076
+0.500000 1.000000            2            2.0        3        1      542
+0.500000 0.500000            4            4.0        3        3      550
+0.750000 1.000000            8            8.0        5        2     1644
+0.875000 1.000000           16           16.0        2        1     1978
+0.687500 0.500000           32           32.0        4        4     2814
+0.546875 0.406250           64           64.0        4        4      768
+0.460938 0.375000          128          128.0        4        4      534
+0.351562 0.242188          256          256.0        3        3     3392
+0.250000 0.148438          512          512.0        4        4     1278
+0.189453 0.128906         1024         1024.0        4        5       68
+0.148926 0.108398         2048         2048.0        4        4     4042
+0.120361 0.091797         4096         4096.0        4        4      278
+0.095581 0.070801         8192         8192.0        1        1      124
+0.081055 0.066528        16384        16384.0        3        3      646
+0.069244 0.057434        32768        32768.0        3        3     1140
+0.062012 0.054779        65536        65536.0        2        2      636
+0.055565 0.049118       131072       131072.0        2        2     1012
+0.050404 0.045242       262144       262144.0        2        2     1746
+0.045929 0.045929       524288       524288.0        4        4       22 h
+0.042753 0.039577      1048576      1048576.0        1        1     1244 h
+0.040400 0.038046      2097152      2097152.0        2        2     1198 h
+0.038549 0.036698      4194304      4194304.0        4        4      188 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.036173 h
+total feature number = 4568946210
+Run:{2,None,0.1}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1076
+0.500000 1.000000            2            2.0        3        1      542
+0.500000 0.500000            4            4.0        3        3      550
+0.750000 1.000000            8            8.0        5        2     1644
+0.875000 1.000000           16           16.0        2        1     1978
+0.593750 0.312500           32           32.0        4        4     2814
+0.484375 0.375000           64           64.0        4        4      768
+0.398438 0.312500          128          128.0        4        4      534
+0.328125 0.257812          256          256.0        3        3     3392
+0.234375 0.140625          512          512.0        4        4     1278
+0.179688 0.125000         1024         1024.0        4        5       68
+0.140137 0.100586         2048         2048.0        4        4     4042
+0.116455 0.092773         4096         4096.0        4        4      278
+0.090332 0.064209         8192         8192.0        1        1      124
+0.076904 0.063477        16384        16384.0        3        3      646
+0.066315 0.055725        32768        32768.0        3        3     1140
+0.059799 0.053284        65536        65536.0        2        2      636
+0.053307 0.046814       131072       131072.0        2        2     1012
+0.047470 0.041634       262144       262144.0        2        2     1746
+0.042721 0.042721       524288       524288.0        4        4       22 h
+0.039347 0.035973      1048576      1048576.0        1        1     1244 h
+0.037108 0.034868      2097152      2097152.0        2        2     1198 h
+0.035692 0.034276      4194304      4194304.0        4        4      188 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.033927 h
+total feature number = 4568946210
+Run:{2,None,0.3}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1076
+0.500000 1.000000            2            2.0        3        1      542
+0.500000 0.500000            4            4.0        3        3      550
+0.750000 1.000000            8            8.0        5        2     1644
+0.812500 0.875000           16           16.0        2        1     1978
+0.531250 0.250000           32           32.0        4        4     2814
+0.453125 0.375000           64           64.0        4        4      768
+0.375000 0.296875          128          128.0        4        4      534
+0.316406 0.257812          256          256.0        3        3     3392
+0.226562 0.136719          512          512.0        4        4     1278
+0.172852 0.119141         1024         1024.0        4        5       68
+0.138672 0.104492         2048         2048.0        4        4     4042
+0.113525 0.088379         4096         4096.0        4        4      278
+0.088623 0.063721         8192         8192.0        1        1      124
+0.075989 0.063354        16384        16384.0        3        3      646
+0.066010 0.056030        32768        32768.0        3        3     1140
+0.059540 0.053070        65536        65536.0        2        2      636
+0.053581 0.047623       131072       131072.0        2        2     1012
+0.047497 0.041412       262144       262144.0        2        2     1746
+0.042034 0.042034       524288       524288.0        4        4       22 h
+0.038580 0.035126      1048576      1048576.0        1        1     1244 h
+0.036427 0.034273      2097152      2097152.0        2        2     1198 h
+0.035049 0.033672      4194304      4194304.0        4        4      188 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.033493 h
+total feature number = 4568946210
+Run:{2,None,0.5}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1076
+0.500000 1.000000            2            2.0        3        1      542
+0.500000 0.500000            4            4.0        3        3      550
+0.750000 1.000000            8            8.0        5        2     1644
+0.812500 0.875000           16           16.0        2        1     1978
+0.531250 0.250000           32           32.0        4        4     2814
+0.453125 0.375000           64           64.0        4        4      768
+0.367188 0.281250          128          128.0        4        4      534
+0.308594 0.250000          256          256.0        3        3     3392
+0.224609 0.140625          512          512.0        4        4     1278
+0.169922 0.115234         1024         1024.0        4        4       68
+0.135742 0.101562         2048         2048.0        4        4     4042
+0.112305 0.088867         4096         4096.0        4        4      278
+0.087769 0.063232         8192         8192.0        1        1      124
+0.076416 0.065063        16384        16384.0        3        3      646
+0.066589 0.056763        32768        32768.0        3        3     1140
+0.059891 0.053192        65536        65536.0        2        2      636
+0.053947 0.048004       131072       131072.0        2        2     1012
+0.047844 0.041740       262144       262144.0        2        2     1746
+0.042145 0.042145       524288       524288.0        4        4       22 h
+0.038532 0.034920      1048576      1048576.0        1        1     1244 h
+0.036351 0.034170      2097152      2097152.0        2        2     1198 h
+
+finished run
+number of examples per pass = 300000
+passes used = 13
+weighted example sum = 3900000.000000
+weighted label sum = 0.000000
+average loss = 0.033500 h
+total feature number = 3959753382
+Run:{2,None,0.7}
+
+
+Generating 2-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1076
+0.500000 1.000000            2            2.0        3        1      542
+0.500000 0.500000            4            4.0        3        3      550
+0.750000 1.000000            8            8.0        5        2     1644
+0.812500 0.875000           16           16.0        2        1     1978
+0.500000 0.187500           32           32.0        4        4     2814
+0.437500 0.375000           64           64.0        4        4      768
+0.359375 0.281250          128          128.0        4        4      534
+0.300781 0.242188          256          256.0        3        3     3392
+0.216797 0.132812          512          512.0        4        4     1278
+0.170898 0.125000         1024         1024.0        4        4       68
+0.136230 0.101562         2048         2048.0        4        4     4042
+0.113770 0.091309         4096         4096.0        4        4      278
+0.088867 0.063965         8192         8192.0        1        1      124
+0.077881 0.066895        16384        16384.0        3        3      646
+0.067780 0.057678        32768        32768.0        3        3     1140
+0.060867 0.053955        65536        65536.0        2        2      636
+0.054611 0.048355       131072       131072.0        2        2     1012
+0.048389 0.042168       262144       262144.0        2        2     1746
+0.042477 0.042477       524288       524288.0        4        4       22 h
+0.038593 0.034710      1048576      1048576.0        1        1     1244 h
+0.036311 0.034029      2097152      2097152.0        2        2     1198 h
+0.034941 0.033570      4194304      4194304.0        4        4      188 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.033493 h
+total feature number = 4568946210
+Run:{2,None,0.9}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.875000 1.000000           16           16.0        2        1     2965
+0.843750 0.812500           32           32.0        4        1     4219
+0.734375 0.625000           64           64.0        4        1     1150
+0.617188 0.500000          128          128.0        4        4      799
+0.550781 0.484375          256          256.0        3        1     5086
+0.484375 0.417969          512          512.0        4        4     1915
+0.458984 0.433594         1024         1024.0        4        2      100
+0.435547 0.412109         2048         2048.0        4        2     6061
+0.390137 0.344727         4096         4096.0        4        4      415
+0.313232 0.236328         8192         8192.0        1        1      184
+0.245605 0.177979        16384        16384.0        3        3      967
+0.198792 0.151978        32768        32768.0        3        3     1708
+0.172256 0.145721        65536        65536.0        2        2      952
+0.152908 0.133560       131072       131072.0        2        2     1516
+0.136864 0.120819       262144       262144.0        2        2     2617
+0.121159 0.121159       524288       524288.0        4        3       31 h
+0.107474 0.093788      1048576      1048576.0        1        1     1864 h
+0.096965 0.086456      2097152      2097152.0        2        2     1795 h
+0.088374 0.079782      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.074960 h
+total feature number = 6844419315
+Run:{2,1,0.001}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.875000 1.000000           16           16.0        2        1     2965
+0.750000 0.625000           32           32.0        4        1     4219
+0.593750 0.437500           64           64.0        4        4     1150
+0.492188 0.390625          128          128.0        4        4      799
+0.402344 0.312500          256          256.0        3        3     5086
+0.306641 0.210938          512          512.0        4        4     1915
+0.246094 0.185547         1024         1024.0        4        4      100
+0.203613 0.161133         2048         2048.0        4        4     6061
+0.162842 0.122070         4096         4096.0        4        4      415
+0.134155 0.105469         8192         8192.0        1        1      184
+0.114502 0.094849        16384        16384.0        3        3      967
+0.099213 0.083923        32768        32768.0        3        3     1708
+0.090012 0.080811        65536        65536.0        2        2      952
+0.080246 0.070480       131072       131072.0        2        2     1516
+0.072308 0.064369       262144       262144.0        2        2     2617
+0.065537 0.065537       524288       524288.0        4        4       31 h
+0.060423 0.055309      1048576      1048576.0        1        1     1864 h
+0.055887 0.051352      2097152      2097152.0        2        2     1795 h
+0.051868 0.047850      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.046340 h
+total feature number = 6844419315
+Run:{2,1,0.01}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.875000 1.000000           16           16.0        2        1     2965
+0.687500 0.500000           32           32.0        4        4     4219
+0.546875 0.406250           64           64.0        4        4     1150
+0.453125 0.359375          128          128.0        4        4      799
+0.347656 0.242188          256          256.0        3        3     5086
+0.244141 0.140625          512          512.0        4        4     1915
+0.179688 0.115234         1024         1024.0        4        4      100
+0.139160 0.098633         2048         2048.0        4        4     6061
+0.111816 0.084473         4096         4096.0        4        4      415
+0.090454 0.069092         8192         8192.0        1        1      184
+0.077332 0.064209        16384        16384.0        3        3      967
+0.066559 0.055786        32768        32768.0        3        3     1708
+0.059647 0.052734        65536        65536.0        2        2      952
+0.053802 0.047958       131072       131072.0        2        2     1516
+0.048378 0.042953       262144       262144.0        2        2     2617
+0.044026 0.044026       524288       524288.0        4        4       31 h
+0.040987 0.037949      1048576      1048576.0        1        1     1864 h
+0.038810 0.036633      2097152      2097152.0        2        2     1795 h
+0.037172 0.035534      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.035160 h
+total feature number = 6844419315
+Run:{2,1,0.1}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.562500 0.312500           32           32.0        4        4     4219
+0.484375 0.406250           64           64.0        4        4     1150
+0.382812 0.281250          128          128.0        4        4      799
+0.300781 0.218750          256          256.0        3        3     5086
+0.218750 0.136719          512          512.0        4        4     1915
+0.166016 0.113281         1024         1024.0        4        4      100
+0.129883 0.093750         2048         2048.0        4        4     6061
+0.106445 0.083008         4096         4096.0        4        4      415
+0.083984 0.061523         8192         8192.0        1        1      184
+0.072754 0.061523        16384        16384.0        3        3      967
+0.062622 0.052490        32768        32768.0        3        3     1708
+0.056702 0.050781        65536        65536.0        2        2      952
+0.050987 0.045273       131072       131072.0        2        2     1516
+0.045704 0.040421       262144       262144.0        2        2     2617
+0.041081 0.041081       524288       524288.0        4        4       31 h
+0.038054 0.035027      1048576      1048576.0        1        1     1864 h
+0.036185 0.034317      2097152      2097152.0        2        2     1795 h
+0.034871 0.033556      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.033180 h
+total feature number = 6844419315
+Run:{2,1,0.3}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.531250 0.250000           32           32.0        4        4     4219
+0.453125 0.375000           64           64.0        4        4     1150
+0.351562 0.250000          128          128.0        4        4      799
+0.281250 0.210938          256          256.0        3        3     5086
+0.208984 0.136719          512          512.0        4        4     1915
+0.162109 0.115234         1024         1024.0        4        4      100
+0.127930 0.093750         2048         2048.0        4        4     6061
+0.104492 0.081055         4096         4096.0        4        4      415
+0.081665 0.058838         8192         8192.0        1        1      184
+0.071411 0.061157        16384        16384.0        3        3      967
+0.061859 0.052307        32768        32768.0        3        3     1708
+0.055954 0.050049        65536        65536.0        2        2      952
+0.050659 0.045364       131072       131072.0        2        2     1516
+0.045429 0.040199       262144       262144.0        2        2     2617
+0.040550 0.040550       524288       524288.0        4        4       31 h
+0.037350 0.034149      1048576      1048576.0        1        1     1864 h
+0.035507 0.033665      2097152      2097152.0        2        2     1795 h
+0.034295 0.033082      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032820 h
+total feature number = 6844419315
+Run:{2,1,0.5}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.562500 0.312500           32           32.0        4        4     4219
+0.453125 0.343750           64           64.0        4        4     1150
+0.351562 0.250000          128          128.0        4        4      799
+0.285156 0.218750          256          256.0        3        3     5086
+0.210938 0.136719          512          512.0        4        4     1915
+0.163086 0.115234         1024         1024.0        4        4      100
+0.127930 0.092773         2048         2048.0        4        4     6061
+0.102051 0.076172         4096         4096.0        4        4      415
+0.080444 0.058838         8192         8192.0        1        1      184
+0.070923 0.061401        16384        16384.0        3        3      967
+0.062134 0.053345        32768        32768.0        3        3     1708
+0.056198 0.050262        65536        65536.0        2        2      952
+0.050644 0.045090       131072       131072.0        2        2     1516
+0.045444 0.040245       262144       262144.0        2        2     2617
+0.040627 0.040627       524288       524288.0        4        4       31 h
+0.037312 0.033997      1048576      1048576.0        1        1     1864 h
+0.035444 0.033577      2097152      2097152.0        2        2     1795 h
+0.034250 0.033056      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032867 h
+total feature number = 6844419315
+Run:{2,1,0.7}
+
+
+Generating 2-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.562500 0.312500           32           32.0        4        4     4219
+0.453125 0.343750           64           64.0        4        4     1150
+0.351562 0.250000          128          128.0        4        4      799
+0.281250 0.210938          256          256.0        3        3     5086
+0.208984 0.136719          512          512.0        4        4     1915
+0.162109 0.115234         1024         1024.0        4        4      100
+0.127441 0.092773         2048         2048.0        4        4     6061
+0.101562 0.075684         4096         4096.0        4        4      415
+0.080322 0.059082         8192         8192.0        1        1      184
+0.070679 0.061035        16384        16384.0        3        3      967
+0.062164 0.053650        32768        32768.0        3        3     1708
+0.056686 0.051208        65536        65536.0        2        2      952
+0.051003 0.045319       131072       131072.0        2        2     1516
+0.045757 0.040512       262144       262144.0        2        2     2617
+0.040859 0.040859       524288       524288.0        4        4       31 h
+0.037478 0.034096      1048576      1048576.0        1        1     1864 h
+0.035509 0.033541      2097152      2097152.0        2        2     1795 h
+0.034270 0.033031      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032800 h
+total feature number = 6844419315
+Run:{2,1,0.9}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.875000 1.000000           16           16.0        2        1     2965
+0.843750 0.812500           32           32.0        4        1     4219
+0.734375 0.625000           64           64.0        4        1     1150
+0.617188 0.500000          128          128.0        4        4      799
+0.554688 0.492188          256          256.0        3        1     5086
+0.484375 0.414062          512          512.0        4        4     1915
+0.460938 0.437500         1024         1024.0        4        2      100
+0.436035 0.411133         2048         2048.0        4        2     6061
+0.395508 0.354980         4096         4096.0        4        4      415
+0.318848 0.242188         8192         8192.0        1        1      184
+0.248291 0.177734        16384        16384.0        3        3      967
+0.199249 0.150208        32768        32768.0        3        3     1708
+0.171295 0.143341        65536        65536.0        2        2      952
+0.151192 0.131088       131072       131072.0        2        2     1516
+0.134716 0.118240       262144       262144.0        2        2     2617
+0.118588 0.118588       524288       524288.0        4        3       31 h
+0.104632 0.090675      1048576      1048576.0        1        1     1864 h
+0.093607 0.082582      2097152      2097152.0        2        2     1795 h
+0.083730 0.073853      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.070767 h
+total feature number = 6844419315
+Run:{3,None,0.001}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.875000 1.000000           16           16.0        2        1     2965
+0.750000 0.625000           32           32.0        4        1     4219
+0.593750 0.437500           64           64.0        4        4     1150
+0.492188 0.390625          128          128.0        4        4      799
+0.406250 0.320312          256          256.0        3        3     5086
+0.306641 0.207031          512          512.0        4        4     1915
+0.243164 0.179688         1024         1024.0        4        4      100
+0.203125 0.163086         2048         2048.0        4        4     6061
+0.161621 0.120117         4096         4096.0        4        4      415
+0.132812 0.104004         8192         8192.0        1        1      184
+0.113220 0.093628        16384        16384.0        3        3      967
+0.096466 0.079712        32768        32768.0        3        3     1708
+0.086029 0.075592        65536        65536.0        2        2      952
+0.076607 0.067184       131072       131072.0        2        2     1516
+0.069061 0.061516       262144       262144.0        2        2     2617
+0.062470 0.062470       524288       524288.0        4        4       31 h
+0.057339 0.052208      1048576      1048576.0        1        1     1864 h
+0.052921 0.048504      2097152      2097152.0        2        2     1795 h
+0.049023 0.045125      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.043713 h
+total feature number = 6844419315
+Run:{3,None,0.01}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.656250 0.500000           32           32.0        4        4     4219
+0.515625 0.375000           64           64.0        4        4     1150
+0.429688 0.343750          128          128.0        4        4      799
+0.328125 0.226562          256          256.0        3        3     5086
+0.232422 0.136719          512          512.0        4        4     1915
+0.168945 0.105469         1024         1024.0        4        4      100
+0.133301 0.097656         2048         2048.0        4        4     6061
+0.107910 0.082520         4096         4096.0        4        4      415
+0.086792 0.065674         8192         8192.0        1        1      184
+0.074097 0.061401        16384        16384.0        3        3      967
+0.063812 0.053528        32768        32768.0        3        3     1708
+0.057266 0.050720        65536        65536.0        2        2      952
+0.051277 0.045288       131072       131072.0        2        2     1516
+0.046043 0.040810       262144       262144.0        2        2     2617
+0.042084 0.042084       524288       524288.0        4        4       31 h
+0.039242 0.036400      1048576      1048576.0        1        1     1864 h
+0.037372 0.035501      2097152      2097152.0        2        2     1795 h
+0.036091 0.034811      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.034367 h
+total feature number = 6844419315
+Run:{3,None,0.1}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.562500 0.312500           32           32.0        4        4     4219
+0.468750 0.375000           64           64.0        4        4     1150
+0.382812 0.296875          128          128.0        4        4      799
+0.296875 0.210938          256          256.0        3        3     5086
+0.214844 0.132812          512          512.0        4        4     1915
+0.162109 0.109375         1024         1024.0        4        4      100
+0.126953 0.091797         2048         2048.0        4        4     6061
+0.103271 0.079590         4096         4096.0        4        4      415
+0.081177 0.059082         8192         8192.0        1        1      184
+0.069092 0.057007        16384        16384.0        3        3      967
+0.059937 0.050781        32768        32768.0        3        3     1708
+0.053925 0.047913        65536        65536.0        2        2      952
+0.048073 0.042221       131072       131072.0        2        2     1516
+0.043018 0.037964       262144       262144.0        2        2     2617
+0.038834 0.038834       524288       524288.0        4        4       31 h
+0.036411 0.033989      1048576      1048576.0        1        1     1864 h
+0.034892 0.033373      2097152      2097152.0        2        2     1795 h
+0.033856 0.032820      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032687 h
+total feature number = 6844419315
+Run:{3,None,0.3}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.593750 0.375000           32           32.0        4        4     4219
+0.468750 0.343750           64           64.0        4        4     1150
+0.359375 0.250000          128          128.0        4        4      799
+0.281250 0.203125          256          256.0        3        3     5086
+0.205078 0.128906          512          512.0        4        4     1915
+0.157227 0.109375         1024         1024.0        4        4      100
+0.125000 0.092773         2048         2048.0        4        4     6061
+0.100586 0.076172         4096         4096.0        4        4      415
+0.079834 0.059082         8192         8192.0        1        1      184
+0.067993 0.056152        16384        16384.0        3        3      967
+0.059143 0.050293        32768        32768.0        3        3     1708
+0.053070 0.046997        65536        65536.0        2        2      952
+0.047508 0.041946       131072       131072.0        2        2     1516
+0.042664 0.037819       262144       262144.0        2        2     2617
+0.038441 0.038441       524288       524288.0        4        4       31 h
+0.035891 0.033340      1048576      1048576.0        1        1     1864 h
+0.034353 0.032816      2097152      2097152.0        2        2     1795 h
+0.033448 0.032542      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032473 h
+total feature number = 6844419315
+Run:{3,None,0.5}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.562500 0.312500           32           32.0        4        4     4219
+0.453125 0.343750           64           64.0        4        4     1150
+0.343750 0.234375          128          128.0        4        4      799
+0.277344 0.210938          256          256.0        3        3     5086
+0.201172 0.125000          512          512.0        4        4     1915
+0.154297 0.107422         1024         1024.0        4        4      100
+0.124023 0.093750         2048         2048.0        4        4     6061
+0.099854 0.075684         4096         4096.0        4        4      415
+0.078613 0.057373         8192         8192.0        1        1      184
+0.067505 0.056396        16384        16384.0        3        3      967
+0.059082 0.050659        32768        32768.0        3        3     1708
+0.052780 0.046478        65536        65536.0        2        2      952
+0.047371 0.041962       131072       131072.0        2        2     1516
+0.042458 0.037544       262144       262144.0        2        2     2617
+0.038185 0.038185       524288       524288.0        4        4       31 h
+0.035515 0.032845      1048576      1048576.0        1        1     1864 h
+0.034098 0.032681      2097152      2097152.0        2        2     1795 h
+0.033265 0.032432      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032300 h
+total feature number = 6844419315
+Run:{3,None,0.7}
+
+
+Generating 3-grams for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     1612
+0.500000 1.000000            2            2.0        3        1      811
+0.500000 0.500000            4            4.0        3        3      823
+0.750000 1.000000            8            8.0        5        3     2464
+0.812500 0.875000           16           16.0        2        1     2965
+0.562500 0.312500           32           32.0        4        4     4219
+0.437500 0.312500           64           64.0        4        4     1150
+0.328125 0.218750          128          128.0        4        4      799
+0.253906 0.179688          256          256.0        3        3     5086
+0.189453 0.125000          512          512.0        4        4     1915
+0.148438 0.107422         1024         1024.0        4        4      100
+0.120117 0.091797         2048         2048.0        4        4     6061
+0.097900 0.075684         4096         4096.0        4        4      415
+0.077393 0.056885         8192         8192.0        1        1      184
+0.067078 0.056763        16384        16384.0        3        3      967
+0.058624 0.050171        32768        32768.0        3        3     1708
+0.052460 0.046295        65536        65536.0        2        2      952
+0.047127 0.041794       131072       131072.0        2        2     1516
+0.042267 0.037407       262144       262144.0        2        2     2617
+0.037827 0.037827       524288       524288.0        4        4       31 h
+0.035299 0.032772      1048576      1048576.0        1        1     1864 h
+0.033937 0.032576      2097152      2097152.0        2        2     1795 h
+0.033141 0.032345      4194304      4194304.0        4        4      280 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032153 h
+total feature number = 6844419315
+Run:{3,None,0.9}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.001
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     3218
+0.500000 1.000000            2            2.0        3        1     1616
+0.500000 0.500000            4            4.0        3        3     1640
+0.750000 1.000000            8            8.0        5        3     4922
+0.812500 0.875000           16           16.0        2        1     5924
+0.812500 0.812500           32           32.0        4        1     8432
+0.687500 0.562500           64           64.0        4        1     2294
+0.585938 0.484375          128          128.0        4        4     1592
+0.523438 0.460938          256          256.0        3        1    10166
+0.458984 0.394531          512          512.0        4        4     3824
+0.432617 0.406250         1024         1024.0        4        2      194
+0.412598 0.392578         2048         2048.0        4        1    12116
+0.373291 0.333984         4096         4096.0        4        4      824
+0.304077 0.234863         8192         8192.0        1        1      362
+0.239563 0.175049        16384        16384.0        3        3     1928
+0.193298 0.147034        32768        32768.0        3        3     3410
+0.166626 0.139954        65536        65536.0        2        2     1898
+0.146866 0.127106       131072       131072.0        2        2     3026
+0.130821 0.114777       262144       262144.0        2        2     5228
+0.114720 0.114720       524288       524288.0        4        4       56 h
+0.100229 0.085739      1048576      1048576.0        1        1     3722 h
+0.088487 0.076744      2097152      2097152.0        2        2     3584 h
+0.079294 0.070102      4194304      4194304.0        4        4      554 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.067247 h
+total feature number = 13661838810
+Run:{3,1,0.001}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.01
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     3218
+0.500000 1.000000            2            2.0        3        1     1616
+0.500000 0.500000            4            4.0        3        3     1640
+0.750000 1.000000            8            8.0        5        3     4922
+0.750000 0.750000           16           16.0        2        1     5924
+0.656250 0.562500           32           32.0        4        1     8432
+0.562500 0.468750           64           64.0        4        1     2294
+0.484375 0.406250          128          128.0        4        4     1592
+0.410156 0.335938          256          256.0        3        3    10166
+0.312500 0.214844          512          512.0        4        4     3824
+0.244141 0.175781         1024         1024.0        4        4      194
+0.202637 0.161133         2048         2048.0        4        4    12116
+0.161133 0.119629         4096         4096.0        4        4      824
+0.131226 0.101318         8192         8192.0        1        1      362
+0.111084 0.090942        16384        16384.0        3        3     1928
+0.092926 0.074768        32768        32768.0        3        3     3410
+0.082779 0.072632        65536        65536.0        2        2     1898
+0.073463 0.064148       131072       131072.0        2        2     3026
+0.066090 0.058716       262144       262144.0        2        2     5228
+0.059445 0.059445       524288       524288.0        4        4       56 h
+0.054520 0.049595      1048576      1048576.0        1        1     3722 h
+0.050183 0.045847      2097152      2097152.0        2        2     3584 h
+0.046506 0.042830      4194304      4194304.0        4        4      554 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.041647 h
+total feature number = 13661838810
+Run:{3,1,0.01}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.1
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     3218
+0.500000 1.000000            2            2.0        3        1     1616
+0.500000 0.500000            4            4.0        3        3     1640
+0.750000 1.000000            8            8.0        5        3     4922
+0.750000 0.750000           16           16.0        2        1     5924
+0.562500 0.375000           32           32.0        4        4     8432
+0.453125 0.343750           64           64.0        4        4     2294
+0.390625 0.328125          128          128.0        4        4     1592
+0.296875 0.203125          256          256.0        3        3    10166
+0.214844 0.132812          512          512.0        4        4     3824
+0.166992 0.119141         1024         1024.0        4        4      194
+0.131348 0.095703         2048         2048.0        4        4    12116
+0.106934 0.082520         4096         4096.0        4        4      824
+0.085693 0.064453         8192         8192.0        1        1      362
+0.073059 0.060425        16384        16384.0        3        3     1928
+0.062988 0.052917        32768        32768.0        3        3     3410
+0.056396 0.049805        65536        65536.0        2        2     1898
+0.050461 0.044525       131072       131072.0        2        2     3026
+0.045395 0.040329       262144       262144.0        2        2     5228
+0.041195 0.041195       524288       524288.0        4        4       56 h
+0.038742 0.036289      1048576      1048576.0        1        1     3722 h
+0.037166 0.035589      2097152      2097152.0        2        2     3584 h
+0.036029 0.034892      4194304      4194304.0        4        4      554 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.034500 h
+total feature number = 13661838810
+Run:{3,1,0.1}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.3
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     3218
+0.500000 1.000000            2            2.0        3        1     1616
+0.500000 0.500000            4            4.0        3        3     1640
+0.750000 1.000000            8            8.0        5        3     4922
+0.750000 0.750000           16           16.0        2        1     5924
+0.562500 0.375000           32           32.0        4        4     8432
+0.468750 0.375000           64           64.0        4        4     2294
+0.390625 0.312500          128          128.0        4        4     1592
+0.289062 0.187500          256          256.0        3        3    10166
+0.205078 0.121094          512          512.0        4        4     3824
+0.157227 0.109375         1024         1024.0        4        4      194
+0.124023 0.090820         2048         2048.0        4        4    12116
+0.100830 0.077637         4096         4096.0        4        4      824
+0.081299 0.061768         8192         8192.0        1        1      362
+0.068481 0.055664        16384        16384.0        3        3     1928
+0.058716 0.048950        32768        32768.0        3        3     3410
+0.052551 0.046387        65536        65536.0        2        2     1898
+0.046997 0.041443       131072       131072.0        2        2     3026
+0.042263 0.037529       262144       262144.0        2        2     5228
+0.038578 0.038578       524288       524288.0        4        4       56 h
+0.036436 0.034294      1048576      1048576.0        1        1     3722 h
+0.035108 0.033779      2097152      2097152.0        2        2     3584 h
+0.034243 0.033379      4194304      4194304.0        4        4      554 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.033240 h
+total feature number = 13661838810
+Run:{3,1,0.3}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     3218
+0.500000 1.000000            2            2.0        3        1     1616
+0.500000 0.500000            4            4.0        3        3     1640
+0.750000 1.000000            8            8.0        5        3     4922
+0.750000 0.750000           16           16.0        2        1     5924
+0.562500 0.375000           32           32.0        4        4     8432
+0.468750 0.375000           64           64.0        4        4     2294
+0.382812 0.296875          128          128.0        4        4     1592
+0.277344 0.171875          256          256.0        3        3    10166
+0.195312 0.113281          512          512.0        4        4     3824
+0.150391 0.105469         1024         1024.0        4        4      194
+0.121582 0.092773         2048         2048.0        4        4    12116
+0.099609 0.077637         4096         4096.0        4        4      824
+0.080688 0.061768         8192         8192.0        1        1      362
+0.067932 0.055176        16384        16384.0        3        3     1928
+0.058105 0.048279        32768        32768.0        3        3     3410
+0.051712 0.045319        65536        65536.0        2        2     1898
+0.046135 0.040558       131072       131072.0        2        2     3026
+0.041451 0.036766       262144       262144.0        2        2     5228
+0.037853 0.037853       524288       524288.0        4        4       56 h
+0.035730 0.033607      1048576      1048576.0        1        1     3722 h
+0.034550 0.033369      2097152      2097152.0        2        2     3584 h
+0.033801 0.033052      4194304      4194304.0        4        4      554 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032907 h
+total feature number = 13661838810
+Run:{3,1,0.5}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.7
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     3218
+0.500000 1.000000            2            2.0        3        1     1616
+0.500000 0.500000            4            4.0        3        3     1640
+0.750000 1.000000            8            8.0        5        3     4922
+0.750000 0.750000           16           16.0        2        1     5924
+0.562500 0.375000           32           32.0        4        4     8432
+0.453125 0.343750           64           64.0        4        4     2294
+0.375000 0.296875          128          128.0        4        4     1592
+0.273438 0.171875          256          256.0        3        3    10166
+0.193359 0.113281          512          512.0        4        4     3824
+0.147461 0.101562         1024         1024.0        4        4      194
+0.119141 0.090820         2048         2048.0        4        4    12116
+0.098389 0.077637         4096         4096.0        4        4      824
+0.078979 0.059570         8192         8192.0        1        1      362
+0.067017 0.055054        16384        16384.0        3        3     1928
+0.057587 0.048157        32768        32768.0        3        3     3410
+0.051300 0.045013        65536        65536.0        2        2     1898
+0.045761 0.040222       131072       131072.0        2        2     3026
+0.041157 0.036552       262144       262144.0        2        2     5228
+0.037567 0.037567       524288       524288.0        4        4       56 h
+0.035439 0.033310      1048576      1048576.0        1        1     3722 h
+0.034287 0.033136      2097152      2097152.0        2        2     3584 h
+0.033580 0.032873      4194304      4194304.0        4        4      554 h
+
+finished run
+number of examples per pass = 300000
+passes used = 15
+weighted example sum = 4500000.000000
+weighted label sum = 0.000000
+average loss = 0.032820 h
+total feature number = 13661838810
+Run:{3,1,0.7}
+
+
+Generating 3-grams for all namespaces.
+Generating 1-skips for all namespaces.
+final_regressor = model.vw
+Num weight bits = 25
+learning rate = 0.9
+initial_t = 0
+power_t = 0.5
+decay_learning_rate = 1
+using cache_file = ../data/sogou_news_csv/train_vw.csv.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0        1        1     3218
+0.500000 1.000000            2            2.0        3        1     1616
+0.500000 0.500000            4            4.0        3        3     1640
+0.750000 1.000000            8            8.0        5        3     4922
+0.750000 0.750000           16           16.0        2        1     5924
+0.562500 0.375000           32           32.0        4        4     8432
+0.453125 0.343750           64           64.0        4        4     2294
+0.367188 0.281250          128          128.0        4        4     1592
+0.265625 0.164062          256          256.0        3        3    10166
+0.189453 0.113281          512          512.0        4        4     3824
+0.146484 0.103516         1024         1024.0        4        4      194
+0.118652 0.090820         2048         2048.0        4        4    12116
+0.098389 0.078125         4096         4096.0        4        4      824
+0.078369 0.058350         8192         8192.0        1        1      362
+0.066528 0.054688        16384        16384.0        3        3     1928
+0.057251 0.047974        32768        32768.0        3        3     3410
+0.050980 0.044708        65536        65536.0        2        2     1898
+0.045441 0.039902       131072       131072.0        2        2     3026
+0.040970 0.036499       262144       262144.0        2        2     5228
+0.037579 0.037579       524288       524288.0        4        4       56 h
+0.035336 0.033092      1048576      1048576.0        1        1     3722 h
+0.034145 0.032955      2097152      2097152.0        2        2     3584 h
+0.033488 0.032831      4194304      4194304.0        4        4      554 h
+
+finished run
+number of examples per pass = 300000
+passes used = 14
+weighted example sum = 4200000.000000
+weighted label sum = 0.000000
+average loss = 0.032787 h
+total feature number = 12751049556
+Run:{3,1,0.9}
+
+
