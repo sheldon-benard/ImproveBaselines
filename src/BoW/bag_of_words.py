@@ -57,17 +57,17 @@ if __name__ == "__main__":
 
 
 		if sys.argv[1] == "DBPedia":
-			sparse_log_reg(loadDBPedia,multi,100)
+			sparse_log_reg(loadDBPedia,multi,1500)
 		if sys.argv[1] == "amazon_full":
-			sparse_log_reg(loadAmazonFull,multi,100)
+			sparse_log_reg(loadAmazonFull,multi,1500)
 		if sys.argv[1] == "amazon_polarity":
-			sparse_log_reg(loadAmazonPolarity,multi,100)
+			sparse_log_reg(loadAmazonPolarity,multi,1500)
 		if sys.argv[1] == "yahoo":
 			sparse_log_reg(loadYahoo,multi,1500)
 		if sys.argv[1] == "sogou":
-			sparse_log_reg(loadSogou,multi,100)
+			sparse_log_reg(loadSogou,multi,1500)
 		if sys.argv[1] == "ag":
-			sparse_log_reg(loadAG,multi,100)
+			sparse_log_reg(loadAG,multi,1500)
 
 
 	else:

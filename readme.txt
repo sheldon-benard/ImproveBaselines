@@ -29,8 +29,6 @@ BoW:
         'python bag_of_words.py DBPedia'
 
 
-    Current accuracy: 0.975
-
 2. Amazon full review
     Download: amazon_review_full_csv.tar.gz
     Unzip and put amazon_review_full_csv folder in the 'data' folder of the project
@@ -41,7 +39,6 @@ BoW:
         'cd ../BoW'
         'python bag_of_words.py amazon_full'
 
-    Current Accuracy: 0.521169
 
 3. Amazon polarity
    Download: amazon_review_polarity_csv.tar.gz
@@ -53,7 +50,6 @@ BoW:
         'cd ../BoW'
         'python bag_of_words.py amazon_polarity'
 
-    Current Accuracy: 0.8880775
 
 4. Yahoo answers
    Download: yahoo_answers_csv.tar.gz
@@ -65,7 +61,6 @@ BoW:
         'cd ../BoW'
         'python bag_of_words.py yahoo'
 
-    Current Accuracy: 0.6804
 
 5. Sogou
    Download: sogou_news_csv.tar.gz
@@ -77,7 +72,6 @@ BoW:
         'cd ../BoW'
         'python bag_of_words.py sogou'
 
-    Current Accuracy: 0.92975
 
 6. AG
    Download: ag_news_csv.tar.gz
@@ -89,55 +83,53 @@ BoW:
         'cd ../BoW'
         'python bag_of_words.py ag'
 
-    Current Accuracy: 0.904736
-
-
 
 VW:
 
-Download the data and put the data folders in the 'data' folder as outlined in the BoW section above
-
 Install Vowpal Wabbit:
 
-    (DEPENDENCIES)
-        brew install libtool
-        brew install autoconf
-        brew install automake
-        brew install boost
-        brew install boost-python
+    (DEPENDENCIES):
+        'brew install libtool'
+        'brew install autoconf'
+        'brew install automake'
+        'brew install boost'
+        'brew install boost-python'
 
-    Navigate to 'VW' folder
-        cd VW
+    Navigate to 'VW' folder:
+        'cd VW'
 
-    Make VW repo and test that it works
-        git clone git://github.com/JohnLangford/vowpal_wabbit.git
-        cd vowpal_wabbit
-        make
-        make test
+    Make VW repo and test that it works:
+        'git clone git://github.com/JohnLangford/vowpal_wabbit.git'
+        'cd vowpal_wabbit'
+        'make'
+        'make test'
 
-    If you encounter issues: https://github.com/JohnLangford/vowpal_wabbit
-
-
-Methodology:
-- Remove punctuation (r'[^\w\s\d]|_')
-- Remove stop words (any word at most 2 characters)
-- lowercase
-- Hyperparameters: bits, loss_function, ngram, skips
+    If you encounter issues, refer to: https://github.com/JohnLangford/vowpal_wabbit
 
 
-    ./vw --oaa 14 -d ../../dbpedia_csv/train_vm.csv --loss_function hinge -b25 -f ../../dbpedia_csv/model.vw
-    ./vw -t ../../dbpedia_csv/test_vm.csv -i ../../dbpedia_csv/model.vw -p ../../dbpedia_csv/pred.txt
+For any dataset:
+    1. Download the dataset and put the data folders in the 'data' folder as outlined in the BoW section above
+    2. Navigate to the VW preprocess and preprocess dataset:
+        'cd src/Preprocess_vw'
+        'python pre_{dataset}.py'
+    3. Navigate to the VW folder; from root:
+        'cd VW'
 
+    Hyperparameter tuning:
 
-    ./vw --oaa 5 -d ../../../data/sogou_news_csv/train_vw.csv --loss_function hinge -b25 --ngram 2 -f ../../../data/sogou_news_csv/model.vw
-    ./vw -t ../../../data/sogou_news_csv/test_vw.csv -i ../../../data/sogou_news_csv/model.vw -p ../../../data/sogou_news_csv/pred.txt
+    4. In tuning.py, uncomment the method call (at the bottom) of the dataset to run
 
-    ./vw --oaa 10 -d ../../yahoo_answers_csv/train_vm.csv --loss_function hinge -b25  -f ../../yahoo_answers_csv/model.vw
-    ./vw -t ../../yahoo_answers_csv/test_vm.csv -i ../../yahoo_answers_csv/model.vw -p ../../yahoo_answers_csv/pred.txt
+    5. Run tuning.py:
+        'python tuning.py'
 
-    ./vw --oaa 5 -d ../../amazon_review_full_csv/train_vm.csv --loss_function hinge -b25  --ngram 2 --skips 2 -f ../../amazon_review_full_csv/model.vw
-    ./vw -t ../../amazon_review_full_csv/test_vm.csv -i ../../amazon_review_full_csv/model.vw -p ../../amazon_review_full_csv/pred.txt
+    Train and test (still in the VW folder):
+        In the command line, run the following according to your dataset:
+        (Fill in oaa,lr,ng,sk according to tuning)
 
-    ./vw --oaa 2 -d ../../amazon_review_polarity_csv/train_vm.csv --loss_function hinge -b25 --ngram 2 --skips 2  -f ../../amazon_review_polarity_csv/model.vw
-    ./vw -t ../../amazon_review_polarity_csv/test_vm.csv -i ../../amazon_review_polarity_csv/model.vw -p ../../amazon_review_polarity_csv/pred.txt
+            'vowpal_wabbit/vowpalwabbit/vw --oaa {oaa} -d ../data/{dataset}/train_vw.csv -c --loss_function logistic -b25 --passes 15 --holdout_period 3 --learning_rate {lr} --ngram {ng} --skips {sk} -f model.vw'
+            'vowpal_wabbit/vowpalwabbit/vw -t ../data/{dataset}/test_vw.csv -i model.vw -p pred.txt'
+
+    To get accuracy, in get_accuracy.py, uncomment the dataset line that corresponds to desired dataset
+    run:
+        'python get_accuracy.py'
 
