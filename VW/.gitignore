@@ -1,0 +1,7 @@
+# Ignore everything in vw directory
+vowpal_wabbit/
+model.vw
+pred.txt
+results_validation_amazon_review_full_csv.txt
+results_validation_amazon_review_polarity_csv.txt
+results_validation_dbpedia_csv.txt

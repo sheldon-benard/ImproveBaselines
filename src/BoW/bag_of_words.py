@@ -9,36 +9,7 @@ from sklearn.metrics import accuracy_score
 
 
 
-def DBPedia():
-
-	train_x,train_y,test_x,test_y = loadDBPedia()
-	print("train_x",train_x.shape,"test_x",test_x.shape)
-	features = 5000
-	stop = 'english'
-
-	vectorizer = CountVectorizer(tokenizer=nltk.word_tokenize,stop_words=stop,max_features=features)
-	train_grams = vectorizer.fit_transform(train_x).toarray()
-
-	test_vectorizer = CountVectorizer(tokenizer = nltk.word_tokenize, vocabulary = vectorizer.vocabulary_, stop_words = stop)
-	test_grams = test_vectorizer.fit_transform(test_x).toarray()
-
-	X = np.asarray(train_grams)
-	Y = np.asarray(train_y)
-
-	X_test = np.asarray(test_grams)
-	Y_test = np.asarray(test_y)
-
-	print("training Logistic Regression")
-	classifier = LogisticRegression()
-	classifier.fit(X, Y)
-
-	predicted = classifier.predict(X_test)
-	score = accuracy_score(Y_test,predicted)
-
-	print(score)
-
-
-def sparse_log_reg(load):
+def sparse_log_reg(load,multi,max_iter):
 	train_x,train_y,test_x,test_y = load()
 	print("train_x",train_x.shape,"test_x",test_x.shape)
 	features = 5000
@@ -52,7 +23,12 @@ def sparse_log_reg(load):
 	Y = np.asarray(train_y)
 
 	print("LogReg fit")
-	classifier = LogisticRegression()
+	classifier = None
+	if multi:
+		classifier = LogisticRegression(multi_class='multinomial',solver='sag',max_iter=max_iter)
+	else:
+		classifier = LogisticRegression()
+
 	classifier.fit(train_grams, Y)
 
 	train_y = None
@@ -73,20 +49,26 @@ def sparse_log_reg(load):
 
 
 if __name__ == "__main__":
-	if len(sys.argv) == 2:
+	if len(sys.argv) == 3:
+		multi = False
+		if sys.argv[2] == 'multi':
+			multi = True
+			print("Using multinomial Log Reg")
+
+
 		if sys.argv[1] == "DBPedia":
-			DBPedia()
+			sparse_log_reg(loadDBPedia,multi,1500)
 		if sys.argv[1] == "amazon_full":
-			sparse_log_reg(loadAmazonFull)
+			sparse_log_reg(loadAmazonFull,multi,1500)
 		if sys.argv[1] == "amazon_polarity":
-			sparse_log_reg(loadAmazonPolarity)
+			sparse_log_reg(loadAmazonPolarity,multi,1500)
 		if sys.argv[1] == "yahoo":
-			sparse_log_reg(loadYahoo)
+			sparse_log_reg(loadYahoo,multi,1500)
 		if sys.argv[1] == "sogou":
-			sparse_log_reg(loadSogou)
+			sparse_log_reg(loadSogou,multi,1500)
 		if sys.argv[1] == "ag":
-			sparse_log_reg(loadAG)
+			sparse_log_reg(loadAG,multi,1500)
 
 
 	else:
-		print("Provide 1 command-line argument to specify dataset")
+		print("Provide 2 command-line argument to specify dataset and multi/ovr")
