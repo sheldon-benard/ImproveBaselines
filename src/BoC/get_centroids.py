@@ -53,8 +53,8 @@ if __name__ == '__main__':
 	#for c_loader in [loadDBPedia, loadAmazonFull, loadAmazonPolarity, loadYahoo,loadSogou, loadAG]:
 	names = [re.sub("load","", x.__name__) for x in loaders]
 
-	test_loaders = [loadAmazonFull]
-	test_names = ["AmazonFull"]
+	test_loaders = [loadAG, loadDBPedia, loadYahoo, loadAmazonFull, loadAmazonPolarity]
+	test_names = ["AG", "DBPedia", "Yahoo", "AmazonFull", "AmazonPolarity"]
 
 	for i, c_loader in enumerate(test_loaders):		
 		corpus_name = test_names[i]
@@ -115,8 +115,8 @@ if __name__ == '__main__':
 #		clf = LogisticRegression(multi_class="ovr", solver="liblinear", verbose=True)
 
 		if not predict:
-			clf = SGDClassifier(loss="log", max_iter=100)
-		
+			#clf = SGDClassifier(loss="log", max_iter=100)
+			clf = LogisticRegression(solver="saga", max_iter=100, multi_class="ovr", verbose=1) 
 			# print("scaling")
 	#		train_boc = preprocessing.StandardScaler(copy=False, with_mean=True, with_std=True).fit_transform(train_boc)
 			print("Begin fitting...")
@@ -131,12 +131,15 @@ if __name__ == '__main__':
 				clf = pickle.load(f1)
 
 		print("Begin predict...")
+		train_pred = clf.predict(train_boc)
+
+		train_acc = accuracy_score(train_y, train_pred)
 		test_pred = clf.predict(test_boc)
 
 		#print("logistic regression took: {}".format(time.clock() - t0))
 		acc= accuracy_score(test_y, test_pred)
-		with open("results.txt", "a") as f1:
-			f1.write("{},{}\n".format(corpus_name, acc))
+		with open("results_ovr.txt", "a") as f1:
+			f1.write("{},{},{}\n".format(corpus_name,train_acc, acc))
 
 		print("Accuracy for {}: ".format(corpus_name), acc)
 
