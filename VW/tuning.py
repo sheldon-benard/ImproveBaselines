@@ -1,18 +1,23 @@
-# ./vw --oaa 5 -d ../../../data/sogou_news_csv/train_vw.csv --loss_function hinge -b25 --ngram 2 -f ../../../data/sogou_news_csv/model.vw
-# ./vw -t ../../../data/sogou_news_csv/test_vw.csv -i ../../../data/sogou_news_csv/model.vw -p ../../../data/sogou_news_csv/pred.txt
+# vowpal_wabbit/vowpalwabbit/vw --oaa 10 -d ../data/yahoo_answers_csv/train_vw.csv -c --passes 15 --loss_function logistic -b25 --ngram 2 --learning_rate 0.1 --holdout_period 3 -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw -t ../data/yahoo_answers_csv/test_vw.csv -i model.vw -p pred.txt
 
-# vowpal_wabbit/vowpalwabbit/vw --oaa 5 -d ../data/amazon_review_full_csv/train_vw.csv -c --passes 15 --loss_function logistic -b25 --ngram 2 --learning_rate 0.2 --skips 1 --holdout_period 3 -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw --oaa 5 -d ../data/amazon_review_full_csv/train_vw.csv -c --passes 15 --loss_function logistic -b25 --ngram 2 --learning_rate 0.1 --skips 1 --holdout_period 3 -f model.vw
 # vowpal_wabbit/vowpalwabbit/vw -t ../data/amazon_review_full_csv/test_vw.csv -i model.vw -p pred.txt
 
 # vowpal_wabbit/vowpalwabbit/vw --oaa 2 -d ../data/amazon_review_polarity_csv/train_vw.csv -c --passes 15 --holdout_period 3 --learning_rate 0.3 --loss_function logistic -b25 --ngram 2 --skips 1 -f model.vw
 # vowpal_wabbit/vowpalwabbit/vw -t ../data/amazon_review_polarity_csv/test_vw.csv -i model.vw -p pred.txt
 
-# vowpal_wabbit/vowpalwabbit/vw --oaa 14 -d ../data/dbpedia_csv/train_vw.csv -c --loss_function logistic -b25 --passes 15 --holdout_period 3 --learning_rate 0.5 --ngram 2 --skips 1 -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw --oaa 14 -d ../data/dbpedia_csv/train_vw.csv -c --loss_function logistic -b25 --passes 15 --holdout_period 3 --learning_rate 0.7 --ngram 2 --skips 1 -f model.vw
 # vowpal_wabbit/vowpalwabbit/vw -t ../data/dbpedia_csv/test_vw.csv -i model.vw -p pred.txt
 
-# vowpal_wabbit/vowpalwabbit/vw --oaa 5 -d ../data/sogou_news_csv/train_vw.csv --loss_function logistic -b25 --ngram 2 --skips 1 -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw --oaa 5 -d ../data/sogou_news_csv/train_vw.csv -c --passes 15 --loss_function logistic -b25 --ngram 3 --learning_rate 0.9 --holdout_period 3 -f model.vw
 # vowpal_wabbit/vowpalwabbit/vw -t ../data/sogou_news_csv/test_vw.csv -i model.vw -p pred.txt
 
+# vowpal_wabbit/vowpalwabbit/vw --oaa 2 -d ../data/amazon_review_polarity_csv/train_vw.csv -c --passes 10 --holdout_off --learning_rate 0.3 --loss_function logistic -b25 --ngram 2 --skips 1 -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw --oaa 14 -d ../data/dbpedia_csv/train_vw.csv -c --loss_function logistic -b25 --passes 11 --holdout_off --learning_rate 0.7 --ngram 2 --skips 1 -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw --oaa 5 -d ../data/amazon_review_full_csv/train_vw.csv -c --passes 9 --loss_function logistic -b25 --ngram 2 --learning_rate 0.1 --skips 1 --holdout_off -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw --oaa 10 -d ../data/yahoo_answers_csv/train_vw.csv -c --passes 15 --loss_function logistic -b25 --ngram 2 --learning_rate 0.1 --holdout_off -f model.vw
+# vowpal_wabbit/vowpalwabbit/vw --oaa 5 -d ../data/sogou_news_csv/train_vw.csv -c --passes 15 --loss_function logistic -b25 --ngram 3 --learning_rate 0.9 --holdout_off -f model.vw
 
 import itertools
 import subprocess
@@ -60,4 +65,4 @@ def hyper_parameter_tuning(classes, dataset):
 # hyper_parameter_tuning(2,"amazon_review_polarity_csv")
 # hyper_parameter_tuning(5,"amazon_review_full_csv")
 # hyper_parameter_tuning(5,"sogou_news_csv")
-hyper_parameter_tuning(10,"yahoo_answers_csv")
+# hyper_parameter_tuning(10,"yahoo_answers_csv")
