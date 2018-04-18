@@ -54,7 +54,7 @@ For any dataset:
 
     4. In tuning.py, uncomment the method call (at the bottom) of the dataset to run
 
-    5. Run tuning.py:
+    5. Run tuning.py (NOTE: VW output appended to the {dataset}.txt file in the VW folder; only do this is hyperparameter tuning):
         'python tuning.py'
 
     Train and test (still in the VW folder):
